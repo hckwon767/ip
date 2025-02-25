@@ -1,685 +1,253 @@
-45.66.218.194,12965,JP,xTom Japan Co
-149.28.21.106,443,JP,Vultr
-139.162.127.55,18836,JP,Akamai Connected Cloud
-45.77.130.245,443,JP,Vultr
-89.187.160.75,8443,JP,Datacamp
-176.97.73.82,2053,JP,M247 Europe
-153.174.24.218,20473,JP,NTT
-125.204.173.119,10884,JP,NTT
-36.53.244.101,32187,JP,STNet Incorporated
-38.180.28.163,2053,JP,M247 Europe
-45.77.25.6,48828,JP,Vultr
-89.187.160.66,8443,JP,Datacamp
-163.172.89.158,81,FR,SCALEWAY S.A.S.
-194.127.193.124,24467,SG,LEASEWEB SINGAPORE PTE
-144.22.252.124,443,BR,Oracle Corporation
-175.198.169.39,12502,KR,KT
-45.78.61.49,10484,JP,IT7 Networks
-64.176.42.6,443,JP,Vultr
-119.230.140.228,10067,JP,K-Opticom Corporation
-121.171.82.130,30012,KR,KT
-121.171.82.130,30055,KR,KT
-150.230.20.156,2053,NL,Oracle Corporation
-85.113.70.29,19125,JP,xTom Japan Co
-221.161.58.134,30260,KR,KT
-138.2.85.23,8080,SG,Oracle Cloud
-175.198.169.39,20887,KR,KT
-121.134.54.200,33131,KR,KT
-172.232.239.249,587,ID,Akamai Connected Cloud
-132.145.124.43,12510,JP,Oracle Cloud
-153.174.24.218,24759,JP,NTT
-68.183.179.5,8443,SG,Digital Ocean
-59.11.31.107,34637,KR,KT
-221.161.58.134,36376,KR,KT
-132.145.124.43,12509,JP,Oracle Cloud
-193.122.126.64,53777,KR,Oracle Cloud
-59.12.130.171,27738,KR,KT
-59.11.31.107,27131,KR,KT
-221.161.58.134,29264,KR,KT
-59.2.114.243,22122,KR,KT
-140.83.57.20,13118,JP,Oracle Cloud
-59.15.182.92,22485,KR,KT
-140.238.62.82,1443,JP,Oracle Cloud
-119.207.232.151,11296,KR,KT
-141.147.155.5,54443,JP,Oracle Cloud
-121.134.54.200,30065,KR,KT
 221.154.243.122,30351,KR,KT
-152.70.100.102,58312,JP,Cloudflare Warp
-118.176.177.2,31266,KR,DLIVE
-138.2.127.24,587,KR,Oracle Cloud
-211.224.100.195,30012,KR,KT
+144.22.252.124,443,BR,Oracle Corporation
+121.171.82.130,30012,KR,KT
+64.176.42.6,443,JP,Vultr
+121.171.82.130,30055,KR,KT
+59.11.31.107,34637,KR,KT
+163.172.89.158,81,FR,SCALEWAY S.A.S.
+59.2.114.243,22122,KR,KT
 218.146.90.232,30053,KR,KT
-193.93.153.82,443,NL,Asimo Networks
-168.138.193.174,11959,JP,Oracle Cloud
-49.166.108.89,11636,KR,LG Uplus
-221.149.11.173,15679,KR,KT
-175.203.94.155,10931,KR,KT
+138.2.127.24,587,KR,Oracle Cloud
+119.230.140.228,10067,JP,K-Opticom Corporation
 158.180.82.203,8443,KR,Oracle Cloud
-192.236.249.97,443,NL,Hostwinds LLC
-125.139.138.180,23105,KR,KT
-61.73.36.4,25700,KR,KT
-119.199.206.40,39731,KR,KT
-185.51.247.96,8443,NL,Zomro
-118.34.67.231,50001,KR,KT
-5.35.70.155,443,NL,Servers Tech Fzco
-121.154.68.40,13282,KR,KT
-220.89.108.14,23612,KR,KT
-185.233.202.195,443,NL,First Server
-182.213.59.227,26645,KR,LG Uplus
-125.135.43.66,30040,KR,KT
-51.15.47.222,3443,NL,Scaleway
-211.193.80.109,37972,KR,KT
-211.227.43.208,30058,KR,KT
-183.101.244.245,30065,KR,KT
-220.71.110.228,30053,KR,KT
-183.101.244.245,30066,KR,KT
-118.131.232.132,30063,KR,LG DACOM Corporation
-23.254.226.110,443,NL,Hostwinds LLC
 109.107.185.15,443,NL,Servers Tech Fzco
-77.238.226.178,443,NL,Servers Tech Fzco
-147.45.134.93,443,NL,TimeWeb
-119.194.63.100,30067,KR,KT
-5.255.122.135,443,NL,The Infrastructure Group
-166.1.22.34,443,NL,Baxet Group Inc
-185.94.164.12,443,NL,First Server
 89.150.35.129,443,NL,Clodo Cloud Service Co
-163.5.207.235,443,NL,SERVA ONE LTD
-89.110.72.12,443,NL,Servers Tech Fzco
-81.22.132.215,41858,NL,Serva One
+185.51.247.96,8443,NL,Zomro
+221.149.11.173,15679,KR,KT
+49.166.108.89,11636,KR,LG Uplus
 192.236.249.89,443,NL,Hostwinds LLC
+195.133.79.154,443,NL,NKtelecom
+147.45.134.93,443,NL,TimeWeb
+193.93.153.82,443,NL,Asimo Networks
+5.35.70.155,443,NL,Servers Tech Fzco
+185.213.211.29,443,NL,Zomro
 103.137.249.117,443,NL,Clodo Cloud Service Co
-46.17.103.238,443,NL,Hostkey
-121.154.68.40,26471,KR,KT
-192.236.249.93,443,NL,Hostwinds LLC
-14.34.173.234,33315,KR,KT
+81.22.132.215,41858,NL,Serva One
+89.110.72.12,443,NL,Servers Tech Fzco
+166.1.22.34,443,NL,Baxet Group Inc
 194.147.149.55,443,NL,Argotel LTD
 109.107.167.104,443,NL,Servers Tech Fzco
-185.213.211.29,443,NL,Zomro
-77.238.247.202,8443,NL,Servers Tech Fzco
-195.133.79.154,443,NL,NKtelecom
-88.218.93.118,443,NL,Stark Industries Solutions
-212.34.151.174,443,NL,Servers Tech Fzco
-89.110.78.173,443,NL,Servers Tech Fzco
 147.45.134.93,35089,NL,TimeWeb
-89.110.87.98,8081,NL,Servers Tech Fzco
-89.110.116.141,443,NL,Servers Tech Fzco
-82.115.7.15,6000,NL,Sia Veesp
 192.236.249.96,443,NL,Hostwinds LLC
-194.147.115.132,443,NL,Argotel LTD
-89.110.120.197,443,NL,Servers Tech Fzco
-113.60.219.196,50003,KR,SK Broadband
-185.103.255.186,443,NL,Neapol Group
-80.85.246.245,443,NL,Servers Tech Fzco
-109.234.39.40,443,NL,Servers Tech Fzco
+89.110.87.98,8081,NL,Servers Tech Fzco
 194.26.232.203,443,NL,Podaon SIA
-178.208.77.253,443,NL,Iron Hosting Centre
-89.110.69.27,443,NL,Servers Tech Fzco
-59.5.26.56,23132,KR,KT
-88.210.11.67,443,NL,Servers Tech Fzco
-37.1.218.117,443,NL,Scalaxy
-185.155.220.64,443,NL,Schokker IT
-77.238.254.244,443,NL,Servers Tech Fzco
-103.106.1.211,443,NL,Stark Industries Solutions
 103.97.88.187,443,NL,Melbikomas UAB
-192.236.249.95,443,NL,Hostwinds LLC
-193.160.96.232,443,NL,FiberXpress
+37.1.218.117,443,NL,Scalaxy
+89.110.69.27,443,NL,Servers Tech Fzco
+178.208.77.253,443,NL,Iron Hosting Centre
+109.234.39.40,443,NL,Servers Tech Fzco
+89.110.121.20,443,NL,Servers Tech Fzco
+77.238.254.244,443,NL,Servers Tech Fzco
+82.115.6.111,443,NL,Sia Veesp
+59.5.26.56,23132,KR,KT
+89.110.125.45,443,NL,Servers Tech Fzco
 77.238.248.80,443,NL,Servers Tech Fzco
 147.45.50.181,8080,NL,Global Connectivity Solutions Llp
-2.59.183.53,443,NL,SERVA ONE LTD
-185.94.164.107,443,NL,First Server
-89.110.121.20,443,NL,Servers Tech Fzco
-82.115.6.111,443,NL,Sia Veesp
-89.110.125.45,443,NL,Servers Tech Fzco
-5.35.69.209,443,NL,Servers Tech Fzco
-128.199.55.47,443,NL,Digital Ocean
-93.183.69.31,443,NL,Ztv Corp
-134.209.82.72,443,NL,Digital Ocean
-88.210.11.164,22284,NL,Servers Tech Fzco
-46.17.102.9,443,NL,Hostkey
-77.238.247.131,443,NL,Servers Tech Fzco
 94.232.244.212,443,NL,Stark Industries Solutions
+88.210.11.164,22284,NL,Servers Tech Fzco
 161.35.145.201,443,NL,Digital Ocean
-89.110.109.64,443,NL,Servers Tech Fzco
-2.56.90.35,443,NL,Iron Hosting Centre
-45.85.117.232,443,NL,Llhost
 46.17.103.147,8443,NL,Hostkey
-95.142.41.132,443,NL,Iron Hosting Centre
-212.34.150.48,2053,NL,Servers Tech Fzco
-66.151.42.127,8443,NL,Internap Corporation
-80.76.35.73,443,NL,First Server
-93.183.68.21,443,NL,Ztv Corp
-45.138.25.67,2053,NL,Itglobalcom Nl
-212.34.148.31,443,NL,Servers Tech Fzco
-103.90.75.41,8443,NL,Clodo Cloud Service Co
-194.87.26.250,443,NL,TimeWeb
-46.30.43.144,8443,NL,Iron Hosting Centre
-37.220.85.33,443,NL,TimeWeb
-93.183.124.199,443,NL,Servers Tech Fzco
-89.110.112.106,443,NL,Servers Tech Fzco
 103.90.75.141,2053,NL,Clodo Cloud Service Co
-45.154.35.160,443,NL,Serverio technologijos MB
-77.238.233.68,443,NL,Servers Tech Fzco
-77.238.231.102,443,NL,Servers Tech Fzco
-185.177.125.88,8443,NL,WorldStream
+80.76.35.73,443,NL,First Server
+212.34.148.31,443,NL,Servers Tech Fzco
+66.151.42.127,8443,NL,Internap Corporation
+95.142.41.132,443,NL,Iron Hosting Centre
+89.110.112.106,443,NL,Servers Tech Fzco
 103.106.1.2,443,NL,Stark Industries Solutions
-213.183.59.144,8443,NL,Melbikomas UAB
 5.35.70.246,8443,NL,Servers Tech Fzco
-2.59.183.210,443,NL,SERVA ONE LTD
-103.90.75.41,2053,NL,Clodo Cloud Service Co
-178.128.247.106,443,NL,Digital Ocean
 176.222.52.48,443,NL,Hostkey
-159.65.215.239,443,GB,Digital Ocean
 94.131.122.72,443,GB,Stark Industries Solutions
 136.244.76.71,8443,GB,Vultr
-89.110.80.120,443,NL,Servers Tech Fzco
-192.248.146.32,443,GB,Vultr
-185.127.17.214,4903,GB,Kamatera Inc
+159.65.215.239,443,GB,Digital Ocean
 185.127.17.163,1298,GB,Kamatera Inc
-185.218.3.35,443,GB,PQ HOSTING SRL
 149.5.52.148,587,GB,Cogent Communications
-193.37.68.238,443,NL,Individual Entrepreneur Anton Levin
 45.140.167.225,2053,GB,Stark Industries Solutions
-129.146.89.30,37687,US,Oracle Cloud
-45.76.143.208,20000,GB,Vultr
-142.93.37.152,8880,GB,Digital Ocean
-173.249.209.140,32037,US,tzulo
-109.61.95.21,8080,GB,Datacamp
+185.218.3.35,443,GB,PQ HOSTING SRL
+107.173.147.41,35398,US,ColoCrossing
+77.91.101.141,443,GB,Stark Industries Solutions
 49.51.233.31,31473,US,Tencent cloud computing
 45.150.164.179,10369,US,Spartan Host
-95.164.37.32,2053,GB,Stark Industries Solutions
-45.77.89.208,19960,GB,Vultr
-23.94.208.154,53485,US,ColoCrossing
-107.173.147.41,35398,US,ColoCrossing
-45.153.185.29,443,GB,MVPS
-23.105.197.144,21182,US,IT7 Networks
-142.171.133.103,35398,US,Multacom Corporation
-95.164.37.32,443,GB,Stark Industries Solutions
-45.89.63.111,443,GB,Baykov Ilya Sergeevich
-91.149.238.88,443,GB,Baxet Group Inc
-77.91.101.141,443,GB,Stark Industries Solutions
-130.185.249.100,443,GB,Clouvider
-159.100.199.200,443,NL,Aryaka Networks
-172.96.211.147,12134,US,IT7 Networks Inc
-5.180.30.112,443,GB,Stark Industries Solutions
-172.83.159.4,27398,US,Spartan Host
-107.173.7.180,47584,US,ColoCrossing
-165.1.71.204,46597,US,Oracle Cloud
-43.154.40.135,10334,HK,Tencent cloud computing
-23.94.136.126,80,US,Cloudflare Warp
-171.103.13.77,30157,TH,True Online
-74.48.5.119,29350,US,Multacom Corporation
-118.141.64.192,36619,HK,HGC Broadband
-173.249.203.187,20154,US,tzulo
-107.182.17.246,27116,US,IT7 Networks Inc
-144.168.56.119,40864,US,IT7 Networks
 74.48.100.162,45580,US,Multacom Corporation
-74.48.145.79,52593,US,Multacom Corporation
-172.245.129.72,27486,US,ColoCrossing
-23.95.48.46,40403,US,ColoCrossing
-129.213.22.27,11650,US,Oracle Cloud
-209.141.46.53,45722,US,FranTech Solutions
-142.171.133.103,27170,US,Multacom Corporation
+165.1.71.204,46597,US,Oracle Cloud
+74.48.5.119,29350,US,Multacom Corporation
+91.149.238.88,443,GB,Baxet Group Inc
+45.89.63.111,443,GB,Baykov Ilya Sergeevich
 172.83.159.4,41389,US,Spartan Host
-129.146.110.110,18499,US,Cloudflare Warp
-209.141.46.53,10095,US,FranTech Solutions
-104.233.185.39,58486,US,Peg Tech
-38.102.235.21,48676,US,Zhejiang Aiyun Network Technology Co
-43.153.61.80,40874,US,Tencent cloud computing
+172.245.129.72,27486,US,ColoCrossing
+173.249.203.187,20154,US,tzulo
+172.96.211.147,12134,US,IT7 Networks Inc
+95.164.37.32,443,GB,Stark Industries Solutions
+107.182.17.246,27116,US,IT7 Networks Inc
+129.213.22.27,11650,US,Oracle Cloud
+142.171.133.103,27170,US,Multacom Corporation
+74.48.145.79,52593,US,Multacom Corporation
 43.135.166.95,17773,US,Tencent cloud computing
-209.141.46.53,21503,US,FranTech Solutions
-23.105.199.246,14273,US,IT7 Networks
+38.102.235.21,48676,US,Zhejiang Aiyun Network Technology Co
+144.168.56.119,40864,US,IT7 Networks
 74.120.170.56,443,US,IT7 Networks Inc
-74.48.5.119,14953,US,Multacom Corporation
-209.141.46.53,49923,US,FranTech Solutions
-74.48.5.119,43523,US,Multacom Corporation
-137.175.97.21,20950,US,Peg Tech
-74.48.5.119,28333,US,Multacom Corporation
-74.48.5.119,55320,US,Multacom Corporation
-38.76.145.177,443,US,Cogent Communications
-74.48.57.42,43802,US,Multacom Corporation
-198.23.135.181,1010,US,ColoCrossing
-38.180.127.82,443,CA,Estruxture-qc
-209.141.46.53,29719,US,FranTech Solutions
-68.233.127.163,8443,CA,Oracle Cloud
+209.141.46.53,21503,US,FranTech Solutions
 104.233.185.39,30440,US,Peg Tech
-74.48.5.119,33996,US,Multacom Corporation
-172.98.207.58,443,CA,Advanced Knowledge Networks
+74.48.5.119,28333,US,Multacom Corporation
+198.23.135.181,1010,US,ColoCrossing
+38.76.145.177,443,US,Cogent Communications
+68.233.127.163,8443,CA,Oracle Cloud
 74.48.100.162,55092,US,Multacom Corporation
-156.234.17.144,443,HK,Yancy
-209.141.46.53,35913,US,FranTech Solutions
-107.175.69.166,2053,US,ColoCrossing
-218.188.151.102,26002,HK,HGC Broadband
+209.141.46.53,29719,US,FranTech Solutions
 72.10.173.87,8443,CA,GloboTech Communications
-34.83.245.149,443,US,Google Cloud
-198.200.41.16,12520,US,Peg Tech
-199.19.107.81,8080,US,IT7 Networks Inc
+172.98.207.58,443,CA,Advanced Knowledge Networks
 129.159.32.235,53520,US,Oracle Cloud
-198.46.218.63,27149,US,ColoCrossing
-137.184.168.222,8443,CA,Digital Ocean
-192.18.150.121,27620,CA,Oracle Cloud
-43.153.37.17,34010,US,Tencent cloud computing
-213.255.209.207,443,CA,Kamatera Inc
 193.233.207.35,443,US,Baxet Group Inc
-43.130.35.177,6161,US,Tencent cloud computing
-72.10.173.74,8443,CA,GloboTech Communications
-45.151.133.125,16478,US,Spartan Host
-72.10.173.97,8443,CA,GloboTech Communications
-74.48.100.162,51801,US,Multacom Corporation
-67.215.14.234,8443,CA,GloboTech Communications
-43.130.105.166,65002,US,Tencent cloud computing
-72.10.173.94,8443,CA,GloboTech Communications
-67.215.14.237,8443,CA,GloboTech Communications
-72.10.173.72,8443,CA,GloboTech Communications
-141.148.153.223,36818,US,Oracle Cloud
-172.93.32.131,23077,CA,Cluster Logic Inc
-66.151.35.94,443,FI,Hostkey
-107.175.183.62,443,US,ColoCrossing
-43.130.105.166,65001,US,Tencent cloud computing
-72.10.173.82,8443,CA,GloboTech Communications
+34.83.245.149,443,US,Google Cloud
 139.64.247.35,37163,CA,DATACITY
-65.20.76.125,2053,IN,Vultr
-67.215.14.236,8443,CA,GloboTech Communications
-150.230.27.23,16504,CA,Oracle Cloud
-193.84.2.58,8443,FI,Hostkey
-72.10.173.90,8443,CA,GloboTech Communications
-45.138.73.83,443,FI,First Server
-92.42.102.22,443,FI,1Cent Host
-194.180.189.51,443,FI,Hostkey
-193.109.84.39,443,FI,I-servers
-194.53.54.30,443,FI,I-servers
-72.10.173.78,8443,CA,GloboTech Communications
-185.233.82.101,8444,FI,First Server
+72.10.173.97,8443,CA,GloboTech Communications
+72.10.173.74,8443,CA,GloboTech Communications
 67.215.14.238,8443,CA,GloboTech Communications
-185.228.235.67,2096,FI,CGI GLOBAL LIMITED
-185.40.7.249,443,FI,First Server
-5.202.6.21,2053,IR,Leaseweb Germany
-212.237.219.99,443,FI,Hostkey
-94.131.100.67,12456,FI,Stark Industries Solutions LTD
-185.252.144.17,8443,FI,First Server
+67.215.14.234,8443,CA,GloboTech Communications
+150.230.27.23,16504,CA,Oracle Cloud
+65.20.76.125,2053,IN,Vultr
+72.10.173.82,8443,CA,GloboTech Communications
+67.215.14.236,8443,CA,GloboTech Communications
+194.180.189.51,443,FI,Hostkey
+45.138.73.83,443,FI,First Server
 194.67.200.244,443,FI,I-servers
-103.111.114.79,443,IN,Melbikomas UAB
-185.102.136.39,443,FI,MGNHostru
 195.26.230.99,8443,FI,Hostkey
-166.0.244.206,2053,IN,Ms Harvil Media
 65.109.183.17,8443,FI,Cloudflare Warp
-213.159.68.113,2053,FI,Stark Industries Solutions
-154.55.138.210,20010,HK,HONG KONG Megalayer Technology Co
-94.131.100.123,2053,FI,Stark Industries Solutions LTD
-185.58.207.205,2053,FI,I-servers
-95.164.113.217,8443,FI,Stark Industries Solutions
-46.8.238.49,8443,FI,CGI GLOBAL LIMITED
-185.17.2.108,8443,FI,I-servers
-141.98.169.24,8443,FI,Stark Industries Solutions LTD
 46.8.237.63,8443,FI,CGI GLOBAL LIMITED
-195.26.230.99,2053,FI,Hostkey
-185.58.207.152,8443,FI,I-servers
-185.153.181.173,2053,FI,Stark Industries Solutions
-45.159.249.160,2053,FI,Stark Industries Solutions LTD
-95.182.99.170,2053,FI,CGI GLOBAL LIMITED
-156.59.91.176,443,HK,Zenlayer
-194.180.189.36,443,FI,Hostkey
-66.151.34.172,2053,FI,Hostkey
-95.164.113.169,8443,FI,Stark Industries Solutions
-194.53.54.131,2053,FI,I-servers
-46.8.228.185,443,FI,CGI GLOBAL LIMITED
-193.164.155.27,8443,FI,CGI GLOBAL LIMITED
-185.104.250.207,8443,FI,I-servers
-188.130.154.234,8443,FI,CGI GLOBAL LIMITED
+185.58.207.205,2053,FI,I-servers
+141.98.169.24,8443,FI,Stark Industries Solutions LTD
+185.17.2.108,8443,FI,I-servers
 45.156.22.237,8443,FI,CGI GLOBAL LIMITED
-95.182.99.128,2053,FI,CGI GLOBAL LIMITED
-185.200.190.76,2053,FI,Axatel LLC
-95.182.99.50,8443,FI,CGI GLOBAL LIMITED
-95.182.99.23,8443,FI,CGI GLOBAL LIMITED
-194.116.172.76,2053,FI,Stark Industries Solutions LTD
-185.200.190.76,8443,FI,Axatel LLC
-83.217.9.99,4955,TR,Global Connectivity Solutions Llp
-185.105.118.135,8443,FI,Ihor-hosting llc
-159.255.33.66,2053,FI,Cox Communications Inc
-185.8.129.187,2053,TR,Alastyr Telekomunikasyon AS
-95.164.113.161,2053,FI,Stark Industries Solutions
-45.156.22.63,2053,FI,CGI GLOBAL LIMITED
-159.255.33.160,2053,FI,Cox Communications Inc
-185.8.129.187,443,TR,Alastyr Telekomunikasyon AS
-185.209.49.17,8443,AE,Itglobal Com Dmcc
-176.223.66.5,8080,TR,Tres Teknoloji AS
-23.164.240.143,8443,FI,Baxet Group Inc
-188.130.154.166,8443,FI,CGI GLOBAL LIMITED
-185.219.134.124,20205,TR,Hostigger
-46.8.236.44,2053,FI,CGI GLOBAL LIMITED
-185.94.167.181,8443,FI,I-servers
+95.182.99.170,2053,FI,CGI GLOBAL LIMITED
+188.130.154.234,8443,FI,CGI GLOBAL LIMITED
 185.105.118.135,2053,FI,Ihor-hosting llc
-77.83.203.163,8080,TR,Netlen Internet Hizmetleri Ltd Sti
-185.156.108.102,2053,FI,Stark Industries Solutions
-94.156.116.204,2053,FI,Baxet Group Inc
-45.86.86.53,443,MD,Alexhost
-188.132.129.199,8443,TR,Ultahost
-188.132.192.194,2053,TR,TradeZone
+185.94.167.181,8443,FI,I-servers
+185.94.167.181,2053,FI,I-servers
+46.8.228.182,8443,FI,CGI GLOBAL LIMITED
+185.219.134.124,20206,TR,Hostigger
 45.142.212.71,8443,MD,PQ HOSTING SRL
 45.142.214.162,2053,MD,PQ HOSTING SRL
-185.219.134.124,20206,TR,Hostigger
-45.89.52.247,443,TR,Stark Industries Solutions LTD
-46.8.228.182,2053,FI,CGI GLOBAL LIMITED
-185.94.167.181,2053,FI,I-servers
-188.132.192.195,2053,TR,TradeZone
-194.135.22.181,443,CH,Big Data Host
-193.124.46.203,58588,TR,Baxet Group Inc
-185.234.66.144,11944,TR,Stark Industries Solutions
-91.245.225.69,443,CH,Big Data Host
-45.142.212.71,2053,MD,PQ HOSTING SRL
-188.130.154.166,2053,FI,CGI GLOBAL LIMITED
-62.133.63.149,2083,TR,Global Connectivity Solutions Llp
-46.8.228.182,8443,FI,CGI GLOBAL LIMITED
-31.210.78.78,8443,TR,Radore Veri Merkezi Hizmetleri AS
-91.192.102.55,443,CH,Datasource
-194.156.67.85,8443,MD,FOXCLOUD COMMUNICATIONS SRL
-95.164.22.56,8443,MD,Stark Industries Solutions
-194.156.67.85,2053,MD,FOXCLOUD COMMUNICATIONS SRL
-45.85.93.21,443,CH,Serva One
-179.43.190.20,8443,CH,Private Layer
 188.132.129.84,8443,TR,Ultahost
-2.56.127.189,2083,TR,Stark Industries Solutions
-91.208.206.103,443,MD,Alexhost
-179.43.155.21,443,CH,Private Layer
-45.82.254.117,2053,CH,Stark Industries Solutions
-45.95.232.58,65513,CH,Global Connectivity Solutions Llp
-38.180.85.203,443,CH,Private Layer
-91.245.225.79,8443,CH,Big Data Host
-45.85.93.49,443,CH,Serva One
-45.84.0.200,2053,MD,PQ HOSTING SRL
-179.43.156.21,2053,CH,Private Layer
-45.82.254.117,8443,CH,Stark Industries Solutions
-89.22.224.125,443,SE,Aeza International
-94.131.3.123,8443,CH,Stark Industries Solutions
-179.43.156.21,8443,CH,Private Layer
+45.86.86.53,443,MD,Alexhost
+194.156.67.85,8443,MD,FOXCLOUD COMMUNICATIONS SRL
+91.245.225.69,443,CH,Big Data Host
+179.43.190.20,8443,CH,Private Layer
 77.221.141.255,2053,SE,Aeza International
-45.95.232.243,8443,CH,Global Connectivity Solutions Llp
+179.43.156.21,2053,CH,Private Layer
+89.22.224.125,443,SE,Aeza International
 217.196.106.116,8443,SE,Aeza International
-217.196.103.23,443,SE,Aeza International
-45.95.232.232,8443,CH,Global Connectivity Solutions Llp
-217.144.188.147,2053,SE,Aeza International
 91.90.193.24,443,CH,Friendhosting LTD
-77.221.141.222,443,SE,Aeza International
-185.195.69.119,2053,CH,Datasource
-185.139.228.192,443,SE,Kamatera Inc
-46.226.165.169,443,SE,Aeza International
-46.226.164.147,443,SE,Aeza International
+217.144.188.147,2053,SE,Aeza International
 77.221.137.133,443,SE,Aeza International
-94.247.42.207,443,CH,Datasource
 89.22.227.239,443,SE,Aeza International
-45.95.232.18,2053,CH,Global Connectivity Solutions Llp
-212.113.101.35,443,SE,Aeza International
-185.230.143.121,443,SE,Aeza International
-217.196.106.121,443,SE,Aeza International
 212.113.100.158,443,SE,Aeza International
-79.137.206.64,443,SE,Aeza International
-95.164.33.149,443,SE,Stark Industries Solutions
+212.113.101.35,443,SE,Aeza International
 77.91.84.225,443,SE,Aeza International
-94.228.164.251,8443,SE,Aeza International
 89.22.239.38,8443,SE,Aeza International
-37.221.126.218,1984,SE,Access2IT Group BV
-147.45.75.211,47995,SE,Aeza International
-94.228.163.44,8443,SE,Aeza International
-77.221.136.95,443,SE,Aeza International
-77.91.84.223,443,SE,Aeza International
-70.34.196.25,443,SE,Vultr
-77.221.143.49,2053,SE,Aeza International
-185.139.228.126,443,SE,Kamatera Inc
-185.174.137.106,2053,SE,Aeza International
-77.221.159.46,8443,SE,Aeza International
-77.221.143.56,2053,SE,Aeza International
-178.236.244.16,443,SE,Aeza International
-188.93.140.125,443,SE,HostHatch
+185.230.143.121,443,SE,Aeza International
+94.228.164.251,8443,SE,Aeza International
 193.233.115.208,2053,SE,Aeza International
+79.137.206.64,443,SE,Aeza International
 77.221.140.20,443,SE,Aeza International
-147.45.77.214,443,SE,Aeza International
 91.103.140.118,2053,SE,Aeza International
-147.45.77.95,2053,SE,Aeza International
+185.174.137.106,2053,SE,Aeza International
 109.120.133.159,2053,SE,Aeza International
-147.45.73.228,2053,SE,Aeza International
-217.196.103.146,2053,SE,Aeza International
-46.226.160.3,2053,SE,Aeza International
-109.120.151.180,2053,SE,Aeza International
-77.105.167.145,2053,SE,Aeza International
-77.221.159.79,8443,SE,Aeza International
-217.144.188.22,2053,SE,Aeza International
-85.192.61.87,2053,SE,Aeza International
-89.22.224.54,2053,SE,Aeza International
-176.124.206.44,2053,SE,Aeza International
 94.131.115.230,443,SE,Stark Industries Solutions
+147.45.77.95,2053,SE,Aeza International
+89.22.224.54,2053,SE,Aeza International
 89.22.226.118,443,SE,Aeza International
-147.45.73.228,8443,SE,Aeza International
-217.144.188.174,8443,SE,Aeza International
-212.113.101.149,443,SE,Aeza International
-77.221.159.194,2053,SE,Aeza International
-46.226.160.0,8443,SE,Aeza International
-109.107.190.164,27654,SE,Aeza International
-89.22.236.55,2053,SE,Aeza International
-89.22.236.96,8443,SE,Aeza International
-46.226.161.129,8443,SE,Aeza International
+85.192.61.87,2053,SE,Aeza International
 77.91.84.63,2053,SE,Aeza International
-176.124.207.60,8443,SE,Aeza International
-202.39.212.181,18990,TW,Chunghwa Telecom
-147.45.74.14,8443,SE,Aeza International
-176.124.207.41,2053,SE,Aeza International
-45.153.187.209,8443,SE,MVPS
-77.91.84.63,8443,SE,Aeza International
-77.221.138.90,8443,SE,Aeza International
-89.22.236.96,2053,SE,Aeza International
-46.226.165.66,8443,SE,Aeza International
-217.144.188.156,8443,SE,Aeza International
+109.107.190.164,27654,SE,Aeza International
 77.232.143.121,2053,SE,Aeza International
+46.226.165.66,8443,SE,Aeza International
 147.45.77.67,2053,SE,Aeza International
-150.241.70.189,2053,SE,Aeza International
+89.22.236.96,2053,SE,Aeza International
 217.144.188.156,2053,SE,Aeza International
-89.22.239.44,2053,SE,Aeza International
-147.45.77.67,8443,SE,Aeza International
-77.221.137.105,8443,SE,Aeza International
-147.45.78.83,8443,SE,Aeza International
-212.192.248.95,8443,SE,Aeza International
-109.120.185.100,2053,SE,Aeza International
-77.91.78.18,8443,SE,Aeza International
-77.221.158.176,8443,SE,Aeza International
-91.184.243.57,2053,SE,Aeza International
-77.221.143.62,2053,SE,Aeza International
-46.226.165.51,2053,SE,Aeza International
-89.22.226.165,2053,SE,Aeza International
-78.40.117.65,2053,SE,Alexhost
-212.192.246.1,2053,SE,UAB Bite Lietuva
-109.120.184.95,8443,SE,Aeza International
-147.45.74.14,2053,SE,Aeza International
-193.188.21.94,8443,SE,Aeza International
-147.45.76.158,2053,SE,Aeza International
 150.241.75.237,443,SE,Aeza International
 89.22.226.57,8443,SE,Aeza International
-89.22.238.90,2053,SE,Aeza International
-109.107.190.3,2053,SE,Aeza International
-77.221.139.230,2053,SE,Aeza International
-89.22.238.202,2053,SE,Aeza International
-193.188.21.94,2053,SE,Aeza International
-89.22.226.57,2053,SE,Aeza International
-77.91.87.63,8443,SE,Aeza International
-77.221.158.123,2053,SE,Aeza International
-94.131.115.24,8443,SE,Stark Industries Solutions
-147.45.76.158,8443,SE,Aeza International
-147.45.75.23,8443,SE,Aeza International
-212.113.102.83,2053,SE,Aeza International
-109.120.132.127,8443,SE,Aeza International
-147.45.73.226,2053,SE,Aeza International
-185.174.137.97,2053,SE,Aeza International
+91.184.243.57,2053,SE,Aeza International
 77.221.158.125,2053,SE,Aeza International
-147.45.75.11,2053,SE,Aeza International
-185.243.215.76,8443,SE,MVPS
-193.188.20.180,2053,SE,Aeza International
+89.22.226.57,2053,SE,Aeza International
+89.22.238.90,2053,SE,Aeza International
+193.188.21.94,8443,SE,Aeza International
+109.120.132.127,8443,SE,Aeza International
+147.45.74.14,2053,SE,Aeza International
+77.221.158.123,2053,SE,Aeza International
 46.226.160.205,8443,SE,Aeza International
-89.22.239.161,2053,SE,Aeza International
-94.228.164.147,8443,SE,Aeza International
-193.233.114.179,2053,SE,Aeza International
-91.184.241.113,443,SE,Aeza International
-147.45.73.252,2053,SE,Aeza International
-185.243.215.76,2053,SE,MVPS
-31.192.244.166,8443,SE,Baxet Group Inc
-77.221.141.17,8443,SE,Aeza International
-185.221.196.176,443,SE,Aeza International
-212.113.101.61,2053,SE,Aeza International
-89.22.237.199,2053,SE,Aeza International
-109.120.184.120,8443,SE,Aeza International
-77.91.87.95,29838,SE,Aeza International
-77.91.86.240,8443,SE,Aeza International
+147.45.76.158,2053,SE,Aeza International
+147.45.75.11,2053,SE,Aeza International
+212.113.102.83,2053,SE,Aeza International
+147.45.73.226,2053,SE,Aeza International
 79.137.248.200,8443,SE,Aeza International
-77.91.85.73,2053,SE,Aeza International
-195.133.2.227,8443,SE,Aeza International
+147.45.73.252,2053,SE,Aeza International
+89.22.239.161,2053,SE,Aeza International
+31.192.244.166,8443,SE,Baxet Group Inc
+91.184.241.113,443,SE,Aeza International
+212.113.101.61,2053,SE,Aeza International
 89.22.231.170,8443,SE,Aeza International
 77.91.87.102,8443,SE,Aeza International
-89.22.225.57,8443,SE,Aeza International
-5.188.183.67,8443,ES,Melbikomas UAB
-195.133.2.190,2053,SE,Aeza International
+94.228.164.147,8443,SE,Aeza International
+109.120.184.120,8443,SE,Aeza International
 176.97.77.241,2053,SE,M247 Europe
+89.22.237.199,2053,SE,Aeza International
+77.91.87.95,29838,SE,Aeza International
+185.243.215.76,2053,SE,MVPS
+77.91.85.73,2053,SE,Aeza International
+89.22.225.57,8443,SE,Aeza International
+195.133.2.227,8443,SE,Aeza International
 91.184.240.241,2053,SE,Aeza International
-46.226.161.172,8443,SE,Aeza International
 217.144.188.127,2053,SE,Aeza International
-62.60.159.212,2053,SE,Aeza International
-78.40.117.186,2053,SE,Alexhost
-147.45.76.216,2053,SE,Aeza International
 147.45.72.62,8443,SE,Aeza International
-77.221.139.87,2053,SE,Aeza International
 185.114.72.31,8443,ES,First Server
-109.120.135.91,8443,SE,Aeza International
-109.120.132.35,2053,SE,Aeza International
-46.226.160.214,8443,SE,Aeza International
-185.114.72.148,443,ES,First Server
-176.124.206.79,2053,SE,Aeza International
 77.221.139.87,8443,SE,Aeza International
+185.114.73.79,2053,ES,First Server
+46.226.160.214,8443,SE,Aeza International
 217.144.186.190,8443,SE,Aeza International
-217.144.191.242,8443,SE,Aeza International
-193.233.115.177,8443,SE,Aeza International
-89.29.147.20,28549,ES,Spotting Brands Technologies SL
+217.144.186.102,8443,SE,Aeza International
+193.233.115.226,8443,SE,Aeza International
+77.232.143.3,2053,SE,Aeza International
 185.230.143.122,443,SE,Aeza International
 212.113.100.191,2053,SE,Aeza International
-89.22.228.114,2053,SE,Aeza International
-194.164.170.244,8443,ES,1&1 Internet AG
 176.124.202.92,2053,SE,Aeza International
-185.114.73.79,2053,ES,First Server
-109.120.184.106,2053,SE,Aeza International
-193.233.115.226,8443,SE,Aeza International
-185.114.72.119,24780,ES,First Server
-45.12.135.32,8443,SE,Stark Industries Solutions
-77.232.143.3,2053,SE,Aeza International
+89.22.228.114,2053,SE,Aeza International
 77.91.86.30,2053,SE,Aeza International
-5.188.181.226,2053,ES,Melbikomas UAB
-217.144.186.102,8443,SE,Aeza International
-89.22.232.119,443,SE,Aeza International
-95.85.89.70,81,ES,G-Core Labs SA
-193.233.115.226,2053,SE,Aeza International
-77.91.86.30,8443,SE,Aeza International
-185.114.73.166,2053,ES,First Server
-217.196.103.76,22736,SE,Aeza International
 185.114.73.79,8443,ES,First Server
-65.20.101.237,8443,ES,Vultr
-185.174.137.149,2053,SE,Aeza International
-109.120.185.44,2053,SE,Aeza International
-185.197.74.229,2053,SE,Aeza International
-77.221.159.63,2053,SE,Aeza International
-77.232.142.45,2053,SE,Aeza International
-92.246.137.219,8443,SE,Aeza International
 92.246.137.122,2053,SE,Aeza International
-94.131.98.24,8443,SE,Stark Industries Solutions LTD
-212.113.100.146,8443,SE,Aeza International
-185.114.72.92,2053,ES,First Server
-65.20.101.237,2053,ES,Vultr
 5.188.181.226,8443,ES,Melbikomas UAB
+185.114.72.92,2053,ES,First Server
 185.114.72.92,8443,ES,First Server
-176.124.207.207,8443,SE,Aeza International
-195.133.2.212,2053,SE,Aeza International
+92.246.137.219,8443,SE,Aeza International
 193.188.21.83,8443,SE,Aeza International
-147.45.73.233,8443,SE,Aeza International
-65.20.103.53,2083,ES,Vultr
-147.45.76.216,8443,SE,Aeza International
-109.120.133.21,8443,SE,Aeza International
-93.93.119.91,443,ES,1&1 Internet AG
 176.124.206.60,2053,SE,Aeza International
-212.113.103.211,2053,SE,Aeza International
 193.17.183.29,8443,ES,Near Ip Sl
-109.120.132.113,2053,SE,Aeza International
-34.175.202.195,443,ES,Google Cloud
-193.17.183.157,2053,ES,Near Ip Sl
+212.113.103.211,2053,SE,Aeza International
+93.93.119.91,443,ES,1&1 Internet AG
 65.20.103.53,2041,ES,Vultr
-147.45.74.29,8443,SE,Aeza International
-92.246.137.219,2053,SE,Aeza International
-217.144.188.80,2053,SE,Aeza International
-212.113.103.211,8443,SE,Aeza International
-94.228.164.249,443,SE,Aeza International
-46.253.4.186,2053,SE,Alexhost
-79.137.248.211,2053,SE,Aeza International
-194.87.45.12,8443,ES,Global Connectivity Solutions Llp
-193.188.21.248,2053,SE,Aeza International
-92.246.137.122,8443,SE,Aeza International
-103.45.245.201,29016,ES,Kamatera Inc
-185.174.137.35,2053,SE,Aeza International
-103.45.245.201,59889,ES,Kamatera Inc
-176.124.207.235,2053,SE,Aeza International
-89.22.230.140,8443,SE,Aeza International
+109.120.132.113,2053,SE,Aeza International
 147.45.74.37,8443,SE,Aeza International
+89.22.230.140,8443,SE,Aeza International
+92.246.137.122,8443,SE,Aeza International
+193.188.21.248,2053,SE,Aeza International
 178.236.244.8,2053,SE,Aeza International
+147.45.164.133,2053,RU,TimeWeb
+185.174.137.35,2053,SE,Aeza International
+103.45.245.201,29016,ES,Kamatera Inc
+90.165.204.7,443,ES,Orange Espana
 147.45.74.37,2053,SE,Aeza International
 89.22.230.140,2053,SE,Aeza International
 195.133.2.92,2053,SE,Aeza International
-185.174.137.10,8443,SE,Aeza International
-147.45.164.133,2053,RU,TimeWeb
-176.124.206.173,8443,SE,Aeza International
-194.87.45.19,2053,ES,Global Connectivity Solutions Llp
-213.183.53.145,2053,RU,Melbikomas UAB
-217.196.103.8,8443,SE,Aeza International
-185.105.89.222,8443,RU,First Server
-109.120.135.26,8443,SE,Aeza International
-77.221.151.83,24443,RU,Aeza Group
-90.165.204.7,443,ES,Orange Espana
-63.251.122.152,2053,ES,servinga
-89.22.239.172,8443,SE,Aeza International
-77.221.151.175,8443,RU,Aeza Group
-176.124.206.150,2053,SE,Aeza International
-200.234.235.120,443,ES,Cloudi Nextgen Sl
 45.95.203.214,8443,RU,First Server
-5.188.82.107,2087,RU,OOO Network of data-centers Selectel
 212.193.31.75,8443,RU,Aeza Group
-158.160.141.246,8443,RU,YandexCloud
-77.221.151.51,2053,RU,Aeza Group
-82.97.254.184,2053,RU,TimeWeb
-85.198.109.79,2053,RU,Hosting technology
-195.80.50.74,8443,RU,Adman
-185.139.69.181,2053,RU,First Server
+77.221.151.83,24443,RU,Aeza Group
 213.156.142.27,8443,RO,G-Core Labs SA
-185.173.38.156,2053,RU,Cloud assets
-185.125.217.180,8443,RU,I-servers
-213.156.142.27,2053,RO,G-Core Labs SA
-217.144.184.182,2053,RU,Aeza Group
-185.125.217.104,2053,RU,I-servers
-212.237.13.126,2053,IT,Aruba Networks
 45.67.34.123,2053,RO,Stark Industries Solutions
-45.82.255.214,8443,PL,Stark Industries Solutions
-217.144.184.182,8443,RU,Aeza Group
-91.219.227.106,2053,RU,LLC VK
-146.70.254.235,8443,RO,M247 Europe
-94.131.109.219,34347,DE,Stark Industries Solutions LTD
-77.83.246.87,8443,PL,Global Connectivity Solutions Llp
-45.82.255.27,17327,PL,Stark Industries Solutions
-185.189.14.161,2053,RU,NTX Technologies sro
-141.8.199.199,8443,RU,Sprinthostru
-91.149.253.190,443,PL,Baxet Group Inc
-185.225.201.194,443,DE,Aeza International
-92.119.90.51,443,DE,Melbikomas UAB
 88.218.76.216,443,FR,velianet Internetdienste
-90.156.228.74,8443,PL,TimeWeb
 38.180.93.241,443,FR,M247 Europe
-164.90.168.135,56179,DE,Digital Ocean
+141.8.199.199,8443,RU,Sprinthostru
 38.180.0.223,443,FR,M247 Europe
-88.218.78.153,443,FR,velianet Internetdienste
-46.29.235.67,8443,DK,Global Internet Solutions
-193.233.133.49,8443,DE,Aeza International
-91.149.233.40,443,DE,Baxet Group Inc
-45.136.199.179,28443,RO,M247 Europe
-87.251.87.111,443,DE,International Hosting Company
-194.58.33.218,443,DE,International Hosting Company
+90.156.228.74,8443,PL,TimeWeb
 51.158.127.207,443,FR,Scaleway
+91.149.233.40,443,DE,Baxet Group Inc
+88.218.78.153,443,FR,velianet Internetdienste
 104.248.36.29,443,DE,Digital Ocean
-213.159.76.175,443,AM,Stark Industries Solutions
-46.29.235.36,2053,DK,Global Internet Solutions
+45.136.199.179,28443,RO,M247 Europe
