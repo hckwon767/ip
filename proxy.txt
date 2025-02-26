@@ -1,33 +1,142 @@
-188.253.6.210,443,TW,Akari Networks
-118.163.37.32,81,TW,Chunghwa Telecom
-188.253.6.53,25884,TW,Akari Networks
-103.106.230.186,81,TW,BrainStorm Network
-83.147.13.199,443,TW,Akari Networks
-85.237.206.205,443,TW,Akari Networks
-59.127.80.162,12224,TW,Chunghwa Telecom
-85.237.206.205,12678,TW,Akari Networks
-61.63.235.53,25957,TW,SaveCom Internation
-210.79.155.242,443,TW,Akari Networks
-37.128.252.113,31141,TW,Akari Networks
-210.61.97.241,81,TW,Data Communication Business Group
-37.128.252.196,8080,TW,AKILE LTD
-220.135.202.250,81,TW,Chunghwa Telecom
-106.105.199.173,38309,TW,Hsin Yeong An Cable TV Co
-103.159.207.168,2086,TW,Emagine Concept
-60.249.114.181,21574,TW,Chunghwa Telecom
-141.11.86.94,18333,TW,Akile
-175.97.191.217,30100,TW,Tai-Fu Cloud Co Ltd
-103.159.207.168,2443,TW,Emagine Concept
-116.241.116.184,20242,TW,TBC
-141.11.87.111,8080,TW,AKILE LTD
-60.249.114.181,26398,TW,Chunghwa Telecom
-202.39.212.181,25062,TW,Chunghwa Telecom
-202.39.212.181,18990,TW,Chunghwa Telecom
-202.39.212.181,18402,TW,Chunghwa Telecom
-220.130.80.171,20655,TW,Data Communication Business Group
-60.249.114.181,32003,TW,Chunghwa Telecom
-61.222.146.15,28227,TW,Chunghwa Telecom
-35.201.203.106,443,TW,Google LLC
-141.11.86.109,8080,TW,AKILE LTD
-103.159.207.172,2086,TW,Emagine Concept
-103.159.207.172,2443,TW,Emagine Concept
+15.235.162.49,443,SG,OVHcloud
+138.2.89.238,43254,SG,Oracle Cloud
+129.150.58.86,57621,SG,Oracle Cloud
+167.71.194.185,8443,SG,Digital Ocean
+178.128.80.43,443,SG,Digital Ocean
+146.235.18.248,45137,SG,Oracle Cloud
+129.150.49.58,18650,SG,Oracle Cloud
+139.162.33.248,587,SG,Akamai Connected Cloud
+51.79.158.126,443,SG,OVH Hosting
+103.180.161.123,587,SG,HONG KONG Megalayer Technology Co
+194.127.193.240,50791,SG,Leaseweb Asia
+47.236.246.163,14108,SG,Alibaba
+8.222.243.73,26385,SG,Alibaba
+47.236.22.194,52324,SG,Alibaba
+161.117.249.114,2025,SG,Alibaba Cloud
+47.236.119.190,51342,SG,Alibaba
+47.74.254.191,8900,SG,Alibaba
+47.236.173.166,587,SG,Alibaba
+119.81.201.154,9089,SG,SoftLayer Technologies
+47.236.25.107,27903,SG,Alibaba
+47.245.95.160,1443,SG,Alibaba
+138.2.74.219,28616,SG,Cloudflare Warp
+194.127.193.124,24467,SG,Leaseweb Asia
+213.35.108.135,12596,SG,Oracle Cloud
+168.138.166.213,10500,SG,Oracle Cloud
+54.169.229.188,443,SG,Amazoncom
+77.221.133.147,443,SG,Iron Hosting Centre
+143.42.68.97,17055,SG,Akamai Connected Cloud
+213.35.107.73,443,SG,Oracle Cloud
+138.2.95.61,1111,SG,Oracle Cloud
+51.79.254.182,443,SG,OVH Hosting
+129.150.36.188,53435,SG,Oracle Cloud
+138.2.77.179,30018,SG,Oracle Cloud
+139.162.48.174,10000,SG,Akamai Connected Cloud
+45.32.100.46,13802,SG,Vultr
+168.138.170.211,53702,SG,Oracle Cloud
+146.190.111.165,443,SG,Digital Ocean
+139.180.215.77,57878,SG,Vultr
+38.181.70.7,16240,SG,Eons Data Communications
+8.222.129.175,58808,SG,Alibaba
+47.236.181.185,8443,SG,Alibaba
+8.219.237.57,31523,SG,Alibaba
+43.134.181.60,38371,SG,Tencent cloud computing
+68.183.179.5,8443,SG,Digital Ocean
+138.2.91.98,9711,SG,Oracle Cloud
+83.142.30.5,2096,SG,Streamline Servers
+43.156.26.205,23654,SG,Tencent cloud computing
+129.150.62.1,24016,SG,Oracle Cloud
+91.192.81.154,2053,SG,Melbikomas UAB
+158.178.236.14,61731,SG,Oracle Cloud
+43.156.97.73,57145,SG,Tencent cloud computing
+168.138.181.188,61731,SG,Oracle Cloud
+128.199.171.100,2053,SG,DigitalOcean LLC
+45.76.183.217,49292,SG,Vultr
+138.2.75.219,39341,SG,Oracle Cloud
+5.223.49.4,2053,SG,Hetzner Online
+138.2.100.221,26621,SG,Oracle Corporation
+168.138.184.172,443,SG,Oracle Cloud
+163.47.9.27,8443,SG,Digital Ocean
+62.72.46.14,8443,SG,Contabo Asia Private
+158.178.243.152,61731,SG,Oracle Cloud
+68.183.179.5,2053,SG,Digital Ocean
+45.129.228.31,8443,SG,Catixs Ltd
+51.79.158.58,8443,SG,OVH Hosting
+163.47.9.27,2053,SG,Digital Ocean
+206.206.76.208,8443,SG,Regxa Cloud
+43.245.198.240,587,SG,IPTELECOM Global
+13.250.38.94,443,SG,Amazon.com Inc
+152.69.210.245,2053,SG,Oracle Cloud
+140.245.34.185,59320,SG,Oracle Cloud
+104.248.145.216,443,SG,DigitalOcean LLC
+194.36.178.36,8443,SG,Neapol Group Ltd
+129.150.50.21,44009,SG,Oracle Corporation
+97.74.82.87,45837,SG,GoDaddycom LLC
+128.199.171.100,8443,SG,DigitalOcean LLC
+138.2.85.23,8080,SG,Oracle Cloud
+192.53.113.156,587,SG,Akamai Connected Cloud
+129.150.41.174,16462,SG,Oracle Corporation
+103.3.63.253,46683,SG,Akamai Connected Cloud
+138.2.101.213,15204,SG,Oracle Corporation
+167.253.158.63,8443,SG,Leaseweb Asia
+8.219.59.132,48130,SG,Alibaba
+101.32.247.126,725,SG,Tencent Building Kejizhongyi Avenue
+138.2.89.64,32962,SG,Oracle Corporation
+8.219.14.21,23943,SG,Alibaba
+8.219.59.132,48964,SG,Alibaba
+8.219.59.208,11178,SG,Alibaba
+8.222.220.81,25435,SG,Alibaba
+47.236.86.17,49257,SG,Alibaba
+8.219.58.164,57373,SG,Alibaba
+160.22.79.174,443,SG,Onidel Pty Ltd
+146.235.19.79,28983,SG,Oracle Corporation
+168.138.184.142,19191,SG,Oracle Corporation
+168.138.171.70,23280,SG,Oracle Corporation
+158.178.246.142,61731,SG,Oracle Corporation
+150.109.24.233,6666,SG,Tencent Building Kejizhongyi Avenue
+138.2.90.127,55555,SG,Oracle Corporation
+18.141.114.130,52132,SG,Amazon.com Inc
+167.253.158.63,2053,SG,LEASEWEB SINGAPORE PTE LTD
+152.69.220.136,53076,SG,Oracle Corporation
+18.141.114.130,50450,SG,Amazon.com Inc
+168.138.165.174,443,SG,Oracle Corporation
+152.69.221.114,23302,SG,Oracle Corporation
+15.235.199.103,8443,SG,OVH SAS
+178.128.89.45,8443,SG,DigitalOcean LLC
+138.2.81.243,45319,SG,Oracle Corporation
+150.109.94.144,8900,SG,Tencent Building Kejizhongyi Avenue
+15.235.199.103,2053,SG,OVH SAS
+138.2.69.236,23334,SG,Oracle Corporation
+31.192.238.71,8443,SG,Chelyabinsk-Signal LLC
+213.35.125.129,6434,SG,Oracle Corporation
+45.76.156.96,2053,SG,The Constant Company LLC
+206.206.76.208,2053,SG,Regxa Company for Information Technology Ltd
+3.1.116.161,8443,SG,Amazon.com Inc
+185.81.29.113,8080,SG,AKILE LTD
+194.36.178.36,2053,SG,FIRST SERVER LIMITED
+31.192.238.71,2053,SG,Chelyabinsk-Signal LLC
+38.54.16.95,2053,SG,Kaopu Cloud HK Limited
+194.36.179.17,2053,SG,FIRST SERVER LIMITED
+185.81.28.95,30503,SG,AKILE LTD
+43.128.95.84,38091,SG,Tencent Building Kejizhongyi Avenue
+194.36.179.17,8443,SG,FIRST SERVER LIMITED
+3.1.116.161,2053,SG,Amazon.com Inc
+51.79.158.58,2053,SG,OVH SAS
+64.49.14.41,8443,SG,Latitude.sh
+194.36.179.5,2053,SG,FIRST SERVER LIMITED
+43.156.6.97,10392,SG,Tencent Building Kejizhongyi Avenue
+209.182.237.252,8080,SG,HIVELOCITY Inc
+5.34.176.119,81,SG,GREEN FLOID LLC
+64.49.14.41,2053,SG,Latitude.sh
+8.219.77.72,5027,SG,Alibaba (US) Technology Co Ltd
+45.87.103.154,57012,SG,Amazon.com
+84.247.49.211,8443,SG,M247 Europe SRL
+91.192.81.154,8443,SG,Melbikomas UAB
+8.222.173.58,23390,SG,Alibaba (US) Technology Co Ltd
+84.247.49.210,8443,SG,M247 Europe SRL
+47.245.91.197,9000,SG,Alibaba (US) Technology Co Ltd
+154.91.84.10,8443,SG,TERAEXCH
+8.222.178.214,6666,SG,Alibaba (US) Technology Co Ltd
+8.222.165.104,443,SG,Alibaba (US) Technology Co Ltd
+83.142.30.4,2096,SG,Streamline Servers Pty Ltd
+185.114.78.230,443,SG,Aryaka Networks Inc
