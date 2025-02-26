@@ -25,7 +25,7 @@ jobs:
 
     - name: Update proxy status
       env:
-        IP_FILE: 'proxy.txt'
+        IP_FILE: 'https://raw.githubusercontent.com/Mayumiwandi/Zoltorac/refs/heads/main/autoscan/active.txt'
         API_URL: 'https://p01--boiling-frame--kw6dd7bjv2nr.code.run/check?ip={ip}&host=speed.cloudflare.com&port={port}&tls=true'
       run: |
         python update_proxy_status.py
