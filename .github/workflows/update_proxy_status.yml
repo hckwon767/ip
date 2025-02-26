@@ -36,6 +36,7 @@ jobs:
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git add proxy.txt
         git add errorproxy.txt
+        git add proxy_updated_hk_kr_jp_no443.txt
         if git diff --cached --exit-code; then
           echo "No changes to commit"
         else
