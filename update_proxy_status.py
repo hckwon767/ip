@@ -5,7 +5,7 @@ import os
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 def check_proxy(row, api_url_template):
-    ip, port = row[0].strip(), row[1].strip()
+    ip, port, country_code, name = row[0].strip(), row[1].strip(), row[2].strip(), row[3].strip()
     api_url = api_url_template.format(ip=ip, port=port)
     try:
         response = requests.get(api_url, timeout=60)
@@ -22,7 +22,7 @@ def check_proxy(row, api_url_template):
 
         if status:
             print(f"{ip}:{port} is ALIVE")
-            return (row, None)
+            return (f"{ip}:{port}#{country_code}", None)  # 수정된 부분
         else:
             print(f"{ip}:{port} is DEAD")
             return (None, None)
@@ -53,19 +53,19 @@ def main():
         return
 
     with ThreadPoolExecutor(max_workers=50) as executor:
-        futures = {executor.submit(check_proxy, row, api_url_template): row for row in rows if len(row) >= 2}
+        futures = {executor.submit(check_proxy, row, api_url_template): row for row in rows if len(row) >= 4} #row 길이가 4 이상인지 확인
 
-        for future in as_completed(futures):
-            alive, error = future.result()
-            if alive:
-                alive_proxies.append(alive)
-            if error:
-                error_logs.append(error)
+    for future in as_completed(futures):
+        alive, error = future.result()
+        if alive:
+            alive_proxies.append(alive)
+        if error:
+            error_logs.append(error)
 
     try:
-        with open(output_file, "w", newline="") as f:
-            writer = csv.writer(f)
-            writer.writerows(alive_proxies)
+        with open(output_file, "w") as f: #csv writer가 아닌 일반 write로 변경
+            for proxy in alive_proxies:
+                f.write(proxy + "\n")
     except Exception as e:
         print(f"Error menulis ke {output_file}: {e}")
         return
