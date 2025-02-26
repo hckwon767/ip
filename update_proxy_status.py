@@ -58,12 +58,16 @@ def main():
     for future in as_completed(futures):
         alive, error = future.result()
         if alive:
-            alive_proxies.append(alive)
+            ip_port_country_company = alive.split("#")
+            ip_port = ip_port_country_company[0].split(":")
+            port = ip_port[1]
+            if port not in ["443", "8080", "2053", "8443"]: # port가 443 또는 8080이 아닌 경우만 추가
+                alive_proxies.append(alive)
         if error:
             error_logs.append(f"{datetime.now()} - {error}")
 
     try:
-        with open(output_file, "a") as f: # append 모드로 변경
+        with open(output_file, "a") as f:
             for proxy_info in alive_proxies:
                 f.write(proxy_info + "\n")
     except Exception as e:
@@ -80,7 +84,7 @@ def main():
             print(f"Error writing to {error_file}: {e}")
             return
 
-    print(f"Alive proxies have been appended to {output_file}.") # 메시지 변경
+    print(f"Alive proxies (excluding ports 443 and 8080) have been appended to {output_file}.") # 메시지 변경
 
 if __name__ == "__main__":
     main()
