@@ -67,7 +67,7 @@ def main():
             error_logs.append(f"{datetime.now()} - {error}")
 
     try:
-        with open(output_file, "a") as f:
+        with open(output_file, "w") as f:
             for proxy_info in alive_proxies:
                 f.write(proxy_info + "\n")
     except Exception as e:
