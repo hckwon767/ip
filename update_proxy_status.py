@@ -22,7 +22,7 @@ def check_proxy(row, api_url_template):
 
         if status:
             print(f"{ip}:{port} is ALIVE")
-            return (f"{ip}:{port}#{country_code}", None)  # 수정된 부분
+            return (f"{ip}:{port}#{country_code} {name}", None)  # 수정된 부분
         else:
             print(f"{ip}:{port} is DEAD")
             return (None, None)
