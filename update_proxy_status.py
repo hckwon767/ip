@@ -80,11 +80,7 @@ def main():
             print(f"Error menulis ke {error_file}: {e}")
             return
 
-    try:
-        shutil.move(output_file, input_file)
-        print(f"{input_file} telah diperbarui dengan proxy yang ALIVE.")
-    except Exception as e:
-        print(f"Error menggantikan {input_file}: {e}")
+    print(f"Alive proxies have been saved to {output_file}.") #덮어쓰기 대신 메시지 출력
 
 if __name__ == "__main__":
     main()
