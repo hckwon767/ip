@@ -2,9 +2,10 @@ import requests
 import csv
 import os
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from datetime import datetime
 
 def check_proxy(row, api_url_template):
-    ip, port, country_code, name = row[0].strip(), row[1].strip(), row[2].strip(), row[3].strip()
+    ip, port, country_code, company = row[0].strip(), row[1].strip(), row[2].strip(), row[3].strip()
     api_url = api_url_template.format(ip=ip, port=port)
     try:
         response = requests.get(api_url, timeout=60)
@@ -21,7 +22,7 @@ def check_proxy(row, api_url_template):
 
         if status:
             print(f"{ip}:{port} is ALIVE")
-            return (f"{ip}:{port}#{country_code} {name}", None)
+            return (f"{ip}:{port}#{country_code} {company}", None)
         else:
             print(f"{ip}:{port} is DEAD")
             return (None, None)
@@ -36,7 +37,7 @@ def check_proxy(row, api_url_template):
 
 def main():
     input_file = os.getenv('IP_FILE', 'proxy.txt')
-    output_file = 'proxy_updated_hk_kr_jp_no443.txt' # hk, kr, jp, 443 제외 프록시 저장 파일 이름 변경
+    output_file = 'proxy_updated.txt'
     error_file = 'errorproxy.txt'
     api_url_template = os.getenv('API_URL', 'https://p01--boiling-frame--kw6dd7bjv2nr.code.run/check?ip={ip}&host=speed.cloudflare.com&port={port}&tls=true')
 
@@ -48,7 +49,7 @@ def main():
             reader = csv.reader(f)
             rows = list(reader)
     except FileNotFoundError:
-        print(f"File {input_file} tidak ditemukan.")
+        print(f"File {input_file} not found.")
         return
 
     with ThreadPoolExecutor(max_workers=50) as executor:
@@ -57,21 +58,16 @@ def main():
     for future in as_completed(futures):
         alive, error = future.result()
         if alive:
-            ip_port_country_name = alive.split("#")
-            country_code = ip_port_country_name[1].split(" ")[0] # country code 추출
-            ip_port = ip_port_country_name[0].split(":")
-            port = ip_port[1] # port 추출
-            if country_code in ["hk", "kr", "jp"] and port != "443": #country_code가 hk, kr, jp 중 하나이고 port가 443이 아닌 경우만 추가
-                alive_proxies.append(alive)
+            alive_proxies.append(alive)
         if error:
-            error_logs.append(error)
+            error_logs.append(f"{datetime.now()} - {error}")
 
     try:
-        with open(output_file, "w") as f:
-            for proxy in alive_proxies:
-                f.write(proxy + "\n")
+        with open(output_file, "a") as f: # append 모드로 변경
+            for proxy_info in alive_proxies:
+                f.write(proxy_info + "\n")
     except Exception as e:
-        print(f"Error menulis ke {output_file}: {e}")
+        print(f"Error writing to {output_file}: {e}")
         return
 
     if error_logs:
@@ -79,12 +75,12 @@ def main():
             with open(error_file, "w") as f:
                 for error in error_logs:
                     f.write(error + "\n")
-            print(f"Beberapa error telah dicatat di {error_file}.")
+            print(f"Errors have been logged in {error_file}.")
         except Exception as e:
-            print(f"Error menulis ke {error_file}: {e}")
+            print(f"Error writing to {error_file}: {e}")
             return
 
-    print(f"Alive HK, KR, JP proxies (excluding port 443) have been saved to {output_file}.") # 메시지 변경
+    print(f"Alive proxies have been appended to {output_file}.") # 메시지 변경
 
 if __name__ == "__main__":
     main()
