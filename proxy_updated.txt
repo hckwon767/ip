@@ -1,21 +1,33 @@
-103.106.230.186:81#TW BrainStorm Network
-202.39.212.181:18990#TW Chunghwa Telecom
-61.222.146.15:28227#TW Chunghwa Telecom
-59.127.80.162:12224#TW Chunghwa Telecom
-188.253.6.53:25884#TW Akari Networks
-202.39.212.181:25062#TW Chunghwa Telecom
-37.128.252.113:31141#TW Akari Networks
-60.249.114.181:32003#TW Chunghwa Telecom
-60.249.114.181:21574#TW Chunghwa Telecom
-118.163.37.32:81#TW Chunghwa Telecom
-141.11.86.94:18333#TW Akile
-61.63.235.53:25957#TW SaveCom Internation
-220.130.80.171:20655#TW Data Communication Business Group
-60.249.114.181:26398#TW Chunghwa Telecom
-220.135.202.250:81#TW Chunghwa Telecom
-116.241.116.184:20242#TW TBC
-106.105.199.173:38309#TW Hsin Yeong An Cable TV Co
-202.39.212.181:18402#TW Chunghwa Telecom
-175.97.191.217:30100#TW Tai-Fu Cloud Co Ltd
-85.237.206.205:12678#TW Akari Networks
-210.61.97.241:81#TW Data Communication Business Group
+8.219.14.21:23943#SG Alibaba
+8.218.245.116:49701#HK Alibaba (US) Technology Co Ltd
+8.222.129.175:58808#SG Alibaba (US) Technology Co Ltd
+8.219.59.132:48130#SG Alibaba
+8.216.81.183:3939#JP Alibaba (US) Technology Co Ltd
+8.222.220.81:25435#SG T-Systems International
+8.220.213.222:20443#KR Alibaba (US) Technology Co Ltd
+8.217.45.219:42291#HK Alibaba (US) Technology Co Ltd
+8.213.224.55:587#TH Alibaba (US) Technology Co Ltd
+8.210.142.146:12346#HK Alibaba (US) Technology Co Ltd
+8.218.245.116:42805#HK Alibaba
+8.209.220.155:587#JP Alibaba (US) Technology Co Ltd
+8.218.245.116:41528#HK Alibaba
+8.219.58.164:57373#SG Alibaba
+8.222.178.214:6666#SG Alibaba
+8.210.7.36:43891#HK Alibaba
+8.219.77.72:5027#SG Alibaba
+8.218.142.77:587#HK Alibaba (US) Technology Co Ltd
+8.218.107.42:6669#HK Alibaba (US) Technology Co Ltd
+8.209.220.50:21273#JP Alibaba
+8.217.45.219:18251#HK Alibaba (US) Technology Co Ltd
+8.217.26.121:38767#HK Alibaba (US) Technology Co Ltd
+8.217.229.36:43803#HK Alibaba (US) Technology Co Ltd
+8.210.200.31:11991#HK Alibaba
+8.210.152.145:26651#HK Alibaba (US) Technology Co Ltd
+8.217.64.152:95#HK Alibaba
+8.222.173.58:23390#SG Alibaba
+8.219.59.208:11178#SG Alibaba (US) Technology Co Ltd
+8.219.237.57:31523#SG Alibaba
+8.218.194.79:59882#HK Alibaba (US) Technology Co Ltd
+8.217.45.101:47243#HK Alibaba (US) Technology Co Ltd
+8.219.59.132:48964#SG Alibaba (US) Technology Co Ltd
+8.218.103.198:39237#HK Alibaba (US) Technology Co Ltd
