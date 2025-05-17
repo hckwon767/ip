@@ -1,7 +1,7 @@
 8.222.220.81:25435#SG T-Systems International
-8.217.45.101:47243#HK Alibaba (US) Technology Co Ltd
 8.217.45.219:42291#HK Alibaba (US) Technology Co Ltd
 8.219.58.164:57373#SG Alibaba
+8.217.45.219:18251#HK Alibaba (US) Technology Co Ltd
 8.222.178.214:6666#SG Alibaba
 8.209.220.50:21273#JP Alibaba
 8.219.77.72:5027#SG Alibaba
@@ -17,8 +17,6 @@
 8.217.26.121:38767#HK Alibaba (US) Technology Co Ltd
 8.217.229.36:43803#HK Alibaba (US) Technology Co Ltd
 8.218.245.116:41528#HK Alibaba
-8.219.59.132:48130#SG Alibaba
-8.219.59.132:48964#SG Alibaba (US) Technology Co Ltd
+8.217.45.101:47243#HK Alibaba (US) Technology Co Ltd
 8.218.245.116:49701#HK Alibaba (US) Technology Co Ltd
-8.217.45.219:18251#HK Alibaba (US) Technology Co Ltd
 8.219.14.21:23943#SG Alibaba
