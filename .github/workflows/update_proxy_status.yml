@@ -30,7 +30,7 @@ jobs:
         PROXY_URL: 'proxy.txt'
         API_URL: 'https://p01--boiling-frame--kw6dd7bjv2nr.code.run/check?ip={ip}&host=speed.cloudflare.com&port={port}&tls=true'
       run: |
-#        python update_proxy_status.py
+        python update_proxy_status.py
         python krlist.py
     - name: Commit and push changes
       run: |
