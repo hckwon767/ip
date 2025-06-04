@@ -3,7 +3,7 @@ name: Update Proxy IP Status
 on:
   schedule:
 #    - cron: '0 0 */2 * *'
-    - cron: '0 12 * * *'
+    - cron: '0 6 * * *'
 
   workflow_dispatch: 
 
@@ -30,15 +30,11 @@ jobs:
         PROXY_URL: 'proxy.txt'
         API_URL: 'https://p01--boiling-frame--kw6dd7bjv2nr.code.run/check?ip={ip}&host=speed.cloudflare.com&port={port}&tls=true'
       run: |
-        python update_proxy_status.py
         python krlist.py
     - name: Commit and push changes
       run: |
         git config --local user.name "github-actions[bot]"
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
-        git add proxy.txt
-        git add errorproxy.txt
-        git add proxy_updated.txt
         git add krlist.txt
         if git diff --cached --exit-code; then
           echo "No changes to commit"
