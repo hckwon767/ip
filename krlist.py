@@ -24,7 +24,7 @@ def process_proxy_list_to_file(url, output_filename="proxy_kr_hk_jp.txt"):
                     country_code = parts[2]
                     name = parts[3]
 
-                    if country_code in ['KR', 'ID', 'US']: # country code가 'KR', 'HK', 또는 'JP'인 경우만 필터링합니다.
+                    if country_code in ['KR', 'DE', 'SG']: # country code가 'KR', 'HK', 또는 'JP'인 경우만 필터링합니다.
                         # 원하는 출력 형식으로 조합하여 파일에 씁니다.
                         outfile.write(f"{ip}:{port}#{country_code} {name}\n")
                     else:
