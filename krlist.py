@@ -58,8 +58,9 @@ def process_proxy_list_to_file(
 # --- 스크립트 사용 방법 (수정됨) ---
 if __name__ == "__main__":
     # 실제 URL로 변경해 주세요. (제공해주신 URL을 사용합니다.)
-    proxy_list_url = "https://raw.githubusercontent.com/freetomaid/5412/refs/heads/main/proxylist2.txt" 
-    
+#    proxy_list_url = "https://raw.githubusercontent.com/freetomaid/5412/refs/heads/main/proxylist2.txt" 
+    proxy_list_url = "https://raw.githubusercontent.com/tedjo877/cek/d6426f895b0011707671da4a9baaaa35bebe0f86/update_proxyip.txt" 
+
     # 1. 한국(KR)만 필터링하여 krlist.txt에 저장
     print("--- 1. 한국(KR) 프록시 필터링 시작 (출력: krlist.txt) ---")
     process_proxy_list_to_file(
