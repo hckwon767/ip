@@ -31,6 +31,7 @@ jobs:
         API_URL: 'https://p01--boiling-frame--kw6dd7bjv2nr.code.run/check?ip={ip}&host=speed.cloudflare.com&port={port}&tls=true'
       run: |
         python krlist.py
+        python convert_proxies.py
     - name: Commit and push changes
       run: |
         git config --local user.name "github-actions[bot]"
@@ -40,6 +41,7 @@ jobs:
         git add jplist.txt
         git add sglist.txt
         git add twlist.txt
+        git add converted_proxies.txt
         if git diff --cached --exit-code; then
           echo "No changes to commit"
         else
