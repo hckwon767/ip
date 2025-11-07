@@ -1,15 +1,12 @@
 129.154.54.67:19567#KR Oracle Corporation
-59.15.182.92:30016#KR Korea Telecom
 152.67.211.114:58337#KR Oracle Public Cloud
 52.141.25.42:443#KR Microsoft Corporation
-59.15.182.92:30017#KR Korea Telecom
 152.67.197.197:19120#KR Oracle Public Cloud
 144.24.84.212:49888#KR Oracle Corp UK Ltd
 121.165.101.69:19413#KR Korea Telecom
-59.15.182.92:30019#KR Korea Telecom
 129.154.48.176:36355#KR Oracle Corporation
-217.142.138.61:37914#KR Oracle Svenska AB
 144.24.87.69:50001#KR Oracle Corporation
+217.142.138.61:37914#KR Oracle Svenska AB
 131.186.18.212:28887#KR Oracle Corporation
 125.130.15.106:27879#KR Korea Telecom
 131.186.20.178:27194#KR Oracle Public Cloud
@@ -24,25 +21,25 @@
 175.208.202.41:20583#KR Korea Telecom
 138.2.122.197:39863#KR Oracle Corporation
 152.69.229.175:22558#KR Oracle Corporation
-152.70.245.66:12693#KR Oracle Corporation
 123.143.9.5:14041#KR LG DACOM Corporation
+152.70.245.66:12693#KR Oracle Corporation
 193.122.126.64:53777#KR Oracle Public Cloud
-112.222.87.59:32226#KR LG DACOM Corporation
 64.110.70.205:23022#KR Oracle Corporation
 106.244.201.248:50000#KR LG DACOM Corporation
 115.40.244.240:12696#KR LG HelloVision Corp.
 115.40.244.240:11211#KR LG HelloVision Corp.
-132.226.23.92:22053#KR Oracle Public Cloud
 152.67.209.237:22053#KR Oracle Public Cloud
+132.226.23.92:22053#KR Oracle Public Cloud
 106.241.78.205:11001#KR LG DACOM Corporation
+112.186.12.243:30012#KR Korea Telecom
 115.40.240.254:37594#KR LG HelloVision Corp.
 115.93.169.180:50000#KR LG DACOM Corporation
 119.197.255.195:30036#KR Korea Telecom
 119.198.34.151:50001#KR Korea Telecom
 129.154.202.229:8443#KR Oracle Corporation
 131.186.17.132:443#KR Oracle Public Cloud
-131.186.27.112:2096#KR Oracle Public Cloud
 132.145.88.82:38066#KR Oracle Public Cloud
+131.186.27.112:2096#KR Oracle Public Cloud
 140.238.2.81:587#KR Oracle Public Cloud
 144.24.73.232:443#KR Oracle Corp UK Ltd
 144.24.90.107:443#KR Oracle Corporation
@@ -50,3 +47,4 @@
 211.219.241.28:31337#KR Korea Telecom
 220.125.55.47:24472#KR Korea Telecom
 221.165.164.92:30019#KR Korea Telecom
+222.114.57.191:30023#KR Korea Telecom
