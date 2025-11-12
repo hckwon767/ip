@@ -1,5 +1,5 @@
 import urllib.request
-from typing import Dict
+from typing import Dict, List, Optional
 
 # 국가 코드와 한글 국가명 매핑 딕셔너리
 COUNTRY_MAP: Dict[str, str] = {
@@ -31,117 +31,165 @@ COUNTRY_MAP: Dict[str, str] = {
     'AE': '아랍에미리트', 'SA': '사우디아라비아', 'IL': '이스라엘', 'TR': '튀르키예'
 }
 
+# 변환된 데이터 제일 아래에 고정으로 추가될 목록 (HK 홍콩으로 변환됨)
+FIXED_PROXIES: List[str] = [
+    "cloudflare.182682.xyz#HK",
+    "speed.marisalnc.com#HK",
+    "freeyx.cloudflare88.eu.org#HK",
+    "bestcf.top#HK",
+    "cdn.2020111.xyz#HK",
+    "cfip.cfcdn.vip#HK",
+    "cf.0sm.com#HK",
+    "cf.090227.xyz#HK",
+    "cf.zhetengsha.eu.org#HK",
+    "cloudflare.9jy.cc#HK",
+    "cf.zerone-cdn.pp.ua#HK",
+    "cfip.1323123.xyz#HK",
+    "cnamefuckxxs.yuchen.icu#HK",
+    "cloudflare-ip.mofashi.ltd#HK",
+    "115155.xyz#HK",
+    "cname.xirancdn.us#HK",
+    "f3058171cad.002404.xyz#HK",
+    "8.889288.xyz#HK",
+    "cdn.tzpro.xyz#HK",
+    "cf.877771.xyz#HK",
+    "xn--b6gac.eu.org#HK"
+]
+
 def get_country_korean_name(country_code: str) -> str:
     """국가 코드를 한글 국가명으로 변환"""
     return COUNTRY_MAP.get(country_code.upper(), '알수없음')
 
+def _process_single_line(line: str) -> Optional[str]:
+    """
+    단일 프록시 라인을 새로운 형식(ip:port#COUNTRYCODE 한글국가명)으로 변환합니다.
+    
+    Args:
+        line: 입력 라인 문자열 (e.g., ip:port#countrycode_name 또는 ip:port#countrycode)
+        
+    Returns:
+        변환된 라인 문자열, 처리할 수 없는 경우 원본 라인, 또는 빈 라인의 경우 None
+    """
+    line = line.strip()
+    if not line:
+        return None
+        
+    try:
+        # ip:port#countrycode_name 형식 파싱
+        if '#' in line:
+            ip_port, country_info = line.split('#', 1)
+            
+            # countrycode 부분만 추출 (countrycode_name에서 countrycode만)
+            # 'HK_HongKong' -> 'HK', 'HK' -> 'HK'
+            country_code = country_info.split('_')[0] if '_' in country_info else country_info
+            
+            # 국가 코드를 대문자로 변환
+            country_code_upper = country_code.upper()
+            
+            # 한글 국가명 가져오기
+            korean_name = get_country_korean_name(country_code_upper)
+            
+            # 새로운 형식으로 변환: ip:port#COUNTRYCODE 한글국가명
+            return f"{ip_port}#{country_code_upper} {korean_name}"
+            
+    except ValueError:
+        # 파싱 오류 시 원본 라인 유지
+        return line
+        
+    # '#'이 없는 경우 원본 라인 유지
+    return line 
+
 def convert_proxy_format(input_url: str, output_file: str = "converted_proxies.txt"):
     """
-    프록시 데이터 형식을 변환하여 파일로 저장
+    URL에서 프록시 데이터를 가져와 형식을 변환하고 고정 목록을 추가하여 파일로 저장
     
     Args:
         input_url: 원본 데이터 URL
         output_file: 출력 파일명
     """
+    processed_lines = []
+    
     try:
         # urllib를 사용하여 파일 내용 가져오기
         with urllib.request.urlopen(input_url) as response:
             data = response.read().decode('utf-8')
         
         lines = data.strip().split('\n')
-        processed_lines = []
         
+        # 1. URL에서 가져온 라인 처리
         for line in lines:
-            line = line.strip()
-            if not line:
-                continue
-                
-            try:
-                # ip:port#countrycode_name 형식 파싱
-                if '#' in line:
-                    ip_port, country_info = line.split('#', 1)
-                    
-                    # countrycode 부분만 추출 (countrycode_name에서 countrycode만)
-                    country_code = country_info.split('_')[0] if '_' in country_info else country_info
-                    
-                    # 국가 코드를 대문자로 변환
-                    country_code_upper = country_code.upper()
-                    
-                    # 한글 국가명 가져오기
-                    korean_name = get_country_korean_name(country_code_upper)
-                    
-                    # 새로운 형식으로 변환
-                    result = f"{ip_port}#{country_code_upper} {korean_name}"
-                    processed_lines.append(result)
-                    
-            except ValueError:
-                # 파싱 오류 시 원본 라인 유지
-                processed_lines.append(line)
-                continue
+            result = _process_single_line(line)
+            if result is not None:
+                processed_lines.append(result)
         
-        # 결과를 파일로 저장
-        with open(output_file, 'w', encoding='utf-8') as f:
-            for result in processed_lines:
-                f.write(result + '\n')
-        
-        print(f"변환 완료: {len(processed_lines)}개의 항목이 {output_file}에 저장되었습니다.")
-            
     except Exception as e:
-        print(f"오류 발생: {e}")
+        print(f"URL에서 데이터를 가져오는 중 오류 발생: {e}")
+        # 오류가 발생했더라도 고정 목록 추가를 시도할 수 있도록 여기서 함수를 종료하지 않음
+    
+    # 2. 고정 목록 라인 처리 및 추가
+    for line in FIXED_PROXIES:
+        fixed_result = _process_single_line(line)
+        if fixed_result is not None:
+            processed_lines.append(fixed_result)
+            
+    # 3. 결과를 파일로 저장
+    if processed_lines:
+        try:
+            with open(output_file, 'w', encoding='utf-8') as f:
+                for result in processed_lines:
+                    f.write(result + '\n')
+            
+            print(f"변환 완료: 총 {len(processed_lines)}개의 항목(고정 목록 포함)이 {output_file}에 저장되었습니다.")
+        except Exception as e:
+            print(f"파일 저장 중 오류 발생: {e}")
+    else:
+        print("처리된 유효한 항목이 없으므로 파일이 저장되지 않았습니다.")
+
 
 def convert_local_file(input_file: str, output_file: str = "converted_proxies.txt"):
     """
-    로컬 파일에서 프록시 데이터를 변환하여 파일로 저장
+    로컬 파일에서 프록시 데이터를 변환하고 고정 목록을 추가하여 파일로 저장
     
     Args:
         input_file: 입력 파일명
         output_file: 출력 파일명
     """
+    processed_lines = []
+    
     try:
         with open(input_file, 'r', encoding='utf-8') as f:
             lines = f.readlines()
-        
-        processed_lines = []
-        
+            
+        # 1. 로컬 파일의 라인 처리
         for line in lines:
-            line = line.strip()
-            if not line:
-                continue
-                
-            try:
-                # ip:port#countrycode_name 형식 파싱
-                if '#' in line:
-                    ip_port, country_info = line.split('#', 1)
-                    
-                    # countrycode 부분만 추출 (countrycode_name에서 countrycode만)
-                    country_code = country_info.split('_')[0] if '_' in country_info else country_info
-                    
-                    # 국가 코드를 대문자로 변환
-                    country_code_upper = country_code.upper()
-                    
-                    # 한글 국가명 가져오기
-                    korean_name = get_country_korean_name(country_code_upper)
-                    
-                    # 새로운 형식으로 변환
-                    result = f"{ip_port}#{country_code_upper} {korean_name}"
-                    processed_lines.append(result)
-                    
-            except ValueError:
-                # 파싱 오류 시 원본 라인 유지
-                processed_lines.append(line)
-                continue
-        
-        # 결과를 파일로 저장
-        with open(output_file, 'w', encoding='utf-8') as f:
-            for result in processed_lines:
-                f.write(result + '\n')
-        
-        print(f"변환 완료: {len(processed_lines)}개의 항목이 {output_file}에 저장되었습니다.")
-                
+            result = _process_single_line(line)
+            if result is not None:
+                processed_lines.append(result)
+            
     except FileNotFoundError:
         print(f"파일을 찾을 수 없습니다: {input_file}")
+        
     except Exception as e:
-        print(f"오류 발생: {e}")
+        print(f"파일 처리 중 오류 발생: {e}")
+
+    # 2. 고정 목록 라인 처리 및 추가
+    for line in FIXED_PROXIES:
+        fixed_result = _process_single_line(line)
+        if fixed_result is not None:
+            processed_lines.append(fixed_result)
+    
+    # 3. 결과를 파일로 저장
+    if processed_lines:
+        try:
+            with open(output_file, 'w', encoding='utf-8') as f:
+                for result in processed_lines:
+                    f.write(result + '\n')
+            
+            print(f"변환 완료: 총 {len(processed_lines)}개의 항목(고정 목록 포함)이 {output_file}에 저장되었습니다.")
+        except Exception as e:
+            print(f"파일 저장 중 오류 발생: {e}")
+    else:
+        print("처리된 유효한 항목이 없으므로 파일이 저장되지 않았습니다.")
 
 if __name__ == "__main__":
     # GitHub URL에서 직접 변환
@@ -149,4 +197,4 @@ if __name__ == "__main__":
     convert_proxy_format(url, "converted_proxies.txt")
     
     # 로컬 파일 변환 (필요한 경우)
-    # convert_local_file("all.txt", "converted_proxies.txt")
+    # convert_local_file("all.txt", "converted_proxies_local.txt")
