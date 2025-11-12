@@ -31,7 +31,7 @@ COUNTRY_MAP: Dict[str, str] = {
     'AE': '아랍에미리트', 'SA': '사우디아라비아', 'IL': '이스라엘', 'TR': '튀르키예'
 }
 
-# 변환된 데이터 제일 아래에 고정으로 추가될 목록 (HK 홍콩으로 변환됨)
+# 변환된 데이터 제일 아래에 고정으로 추가될 목록 (HK 홍콩으로 변환되며 "CDN HOST" 태그가 붙음)
 FIXED_PROXIES: List[str] = [
     "cloudflare.182682.xyz#HK",
     "speed.marisalnc.com#HK",
@@ -60,12 +60,14 @@ def get_country_korean_name(country_code: str) -> str:
     """국가 코드를 한글 국가명으로 변환"""
     return COUNTRY_MAP.get(country_code.upper(), '알수없음')
 
-def _process_single_line(line: str) -> Optional[str]:
+def _process_single_line(line: str, is_cdn_host: bool = False) -> Optional[str]:
     """
-    단일 프록시 라인을 새로운 형식(ip:port#COUNTRYCODE 한글국가명)으로 변환합니다.
+    단일 프록시 라인을 새로운 형식으로 변환합니다.
+    (ip:port#COUNTRYCODE [CDN HOST] 한글국가명)
     
     Args:
         line: 입력 라인 문자열 (e.g., ip:port#countrycode_name 또는 ip:port#countrycode)
+        is_cdn_host: True이면 결과에 " CDN HOST" 문구를 추가합니다.
         
     Returns:
         변환된 라인 문자열, 처리할 수 없는 경우 원본 라인, 또는 빈 라인의 경우 None
@@ -79,8 +81,7 @@ def _process_single_line(line: str) -> Optional[str]:
         if '#' in line:
             ip_port, country_info = line.split('#', 1)
             
-            # countrycode 부분만 추출 (countrycode_name에서 countrycode만)
-            # 'HK_HongKong' -> 'HK', 'HK' -> 'HK'
+            # countrycode 부분만 추출
             country_code = country_info.split('_')[0] if '_' in country_info else country_info
             
             # 국가 코드를 대문자로 변환
@@ -89,8 +90,12 @@ def _process_single_line(line: str) -> Optional[str]:
             # 한글 국가명 가져오기
             korean_name = get_country_korean_name(country_code_upper)
             
-            # 새로운 형식으로 변환: ip:port#COUNTRYCODE 한글국가명
-            return f"{ip_port}#{country_code_upper} {korean_name}"
+            # CDN HOST 문구 조건부 추가
+            # is_cdn_host가 True일 때만 ' CDN HOST' 문자열을 추가합니다.
+            extra_tag = " CDN HOST" if is_cdn_host else ""
+            
+            # 새로운 형식으로 변환: ip:port#COUNTRYCODE [CDN HOST] 한글국가명
+            return f"{ip_port}#{country_code_upper}{extra_tag} {korean_name}"
             
     except ValueError:
         # 파싱 오류 시 원본 라인 유지
@@ -116,19 +121,19 @@ def convert_proxy_format(input_url: str, output_file: str = "converted_proxies.t
         
         lines = data.strip().split('\n')
         
-        # 1. URL에서 가져온 라인 처리
+        # 1. URL에서 가져온 라인 처리 (CDN HOST 태그 미적용)
         for line in lines:
-            result = _process_single_line(line)
+            result = _process_single_line(line, is_cdn_host=False)
             if result is not None:
                 processed_lines.append(result)
         
     except Exception as e:
         print(f"URL에서 데이터를 가져오는 중 오류 발생: {e}")
-        # 오류가 발생했더라도 고정 목록 추가를 시도할 수 있도록 여기서 함수를 종료하지 않음
     
-    # 2. 고정 목록 라인 처리 및 추가
+    # 2. 고정 목록 라인 처리 및 추가 (CDN HOST 태그 적용)
     for line in FIXED_PROXIES:
-        fixed_result = _process_single_line(line)
+        # FIXED_PROXIES는 is_cdn_host=True로 처리하여 " CDN HOST" 태그를 추가합니다.
+        fixed_result = _process_single_line(line, is_cdn_host=True)
         if fixed_result is not None:
             processed_lines.append(fixed_result)
             
@@ -160,9 +165,9 @@ def convert_local_file(input_file: str, output_file: str = "converted_proxies.tx
         with open(input_file, 'r', encoding='utf-8') as f:
             lines = f.readlines()
             
-        # 1. 로컬 파일의 라인 처리
+        # 1. 로컬 파일의 라인 처리 (CDN HOST 태그 미적용)
         for line in lines:
-            result = _process_single_line(line)
+            result = _process_single_line(line, is_cdn_host=False)
             if result is not None:
                 processed_lines.append(result)
             
@@ -172,9 +177,10 @@ def convert_local_file(input_file: str, output_file: str = "converted_proxies.tx
     except Exception as e:
         print(f"파일 처리 중 오류 발생: {e}")
 
-    # 2. 고정 목록 라인 처리 및 추가
+    # 2. 고정 목록 라인 처리 및 추가 (CDN HOST 태그 적용)
     for line in FIXED_PROXIES:
-        fixed_result = _process_single_line(line)
+        # FIXED_PROXIES는 is_cdn_host=True로 처리하여 " CDN HOST" 태그를 추가합니다.
+        fixed_result = _process_single_line(line, is_cdn_host=True)
         if fixed_result is not None:
             processed_lines.append(fixed_result)
     
