@@ -33,27 +33,27 @@ COUNTRY_MAP: Dict[str, str] = {
 
 # 변환된 데이터 제일 아래에 고정으로 추가될 목록 (HK 홍콩으로 변환되며 "CDN HOST" 태그가 붙음)
 FIXED_PROXIES: List[str] = [
-    "cloudflare.182682.xyz#HK",
-    "speed.marisalnc.com#HK",
-    "freeyx.cloudflare88.eu.org#HK",
-    "bestcf.top#HK",
-    "cdn.2020111.xyz#HK",
-    "cfip.cfcdn.vip#HK",
-    "cf.0sm.com#HK",
-    "cf.090227.xyz#HK",
-    "cf.zhetengsha.eu.org#HK",
-    "cloudflare.9jy.cc#HK",
-    "cf.zerone-cdn.pp.ua#HK",
-    "cfip.1323123.xyz#HK",
-    "cnamefuckxxs.yuchen.icu#HK",
-    "cloudflare-ip.mofashi.ltd#HK",
-    "115155.xyz#HK",
-    "cname.xirancdn.us#HK",
-    "f3058171cad.002404.xyz#HK",
-    "8.889288.xyz#HK",
-    "cdn.tzpro.xyz#HK",
-    "cf.877771.xyz#HK",
-    "xn--b6gac.eu.org#HK"
+    "cloudflare.182682.xyz:443#HK",
+    "speed.marisalnc.com:443#HK",
+    "freeyx.cloudflare88.eu.org:443#HK",
+    "bestcf.top:443#HK",
+    "cdn.2020111.xyz:443#HK",
+    "cfip.cfcdn.vip:443#HK",
+    "cf.0sm.com:443#HK",
+    "cf.090227.xyz:443#HK",
+    "cf.zhetengsha.eu.org:443#HK",
+    "cloudflare.9jy.cc:443#HK",
+    "cf.zerone-cdn.pp.ua:443#HK",
+    "cfip.1323123.xyz:443#HK",
+    "cnamefuckxxs.yuchen.icu:443#HK",
+    "cloudflare-ip.mofashi.ltd:443#HK",
+    "115155.xyz:443#HK",
+    "cname.xirancdn.us:443#HK",
+    "f3058171cad.002404.xyz:443#HK",
+    "8.889288.xyz:443#HK",
+    "cdn.tzpro.xyz:443#HK",
+    "cf.877771.xyz:443#HK",
+    "xn--b6gac.eu.org:443#HK"
 ]
 
 def get_country_korean_name(country_code: str) -> str:
