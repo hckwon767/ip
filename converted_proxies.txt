@@ -75,24 +75,24 @@
 61.83.202.17:10042#KR 대한민국
 43.155.186.100:446#KR 대한민국
 121.176.5.244:50002#KR 대한민국
-cloudflare.182682.xyz#HK 홍콩
-speed.marisalnc.com#HK 홍콩
-freeyx.cloudflare88.eu.org#HK 홍콩
-bestcf.top#HK 홍콩
-cdn.2020111.xyz#HK 홍콩
-cfip.cfcdn.vip#HK 홍콩
-cf.0sm.com#HK 홍콩
-cf.090227.xyz#HK 홍콩
-cf.zhetengsha.eu.org#HK 홍콩
-cloudflare.9jy.cc#HK 홍콩
-cf.zerone-cdn.pp.ua#HK 홍콩
-cfip.1323123.xyz#HK 홍콩
-cnamefuckxxs.yuchen.icu#HK 홍콩
-cloudflare-ip.mofashi.ltd#HK 홍콩
-115155.xyz#HK 홍콩
-cname.xirancdn.us#HK 홍콩
-f3058171cad.002404.xyz#HK 홍콩
-8.889288.xyz#HK 홍콩
-cdn.tzpro.xyz#HK 홍콩
-cf.877771.xyz#HK 홍콩
-xn--b6gac.eu.org#HK 홍콩
+cloudflare.182682.xyz#HK CDN HOST 홍콩
+speed.marisalnc.com#HK CDN HOST 홍콩
+freeyx.cloudflare88.eu.org#HK CDN HOST 홍콩
+bestcf.top#HK CDN HOST 홍콩
+cdn.2020111.xyz#HK CDN HOST 홍콩
+cfip.cfcdn.vip#HK CDN HOST 홍콩
+cf.0sm.com#HK CDN HOST 홍콩
+cf.090227.xyz#HK CDN HOST 홍콩
+cf.zhetengsha.eu.org#HK CDN HOST 홍콩
+cloudflare.9jy.cc#HK CDN HOST 홍콩
+cf.zerone-cdn.pp.ua#HK CDN HOST 홍콩
+cfip.1323123.xyz#HK CDN HOST 홍콩
+cnamefuckxxs.yuchen.icu#HK CDN HOST 홍콩
+cloudflare-ip.mofashi.ltd#HK CDN HOST 홍콩
+115155.xyz#HK CDN HOST 홍콩
+cname.xirancdn.us#HK CDN HOST 홍콩
+f3058171cad.002404.xyz#HK CDN HOST 홍콩
+8.889288.xyz#HK CDN HOST 홍콩
+cdn.tzpro.xyz#HK CDN HOST 홍콩
+cf.877771.xyz#HK CDN HOST 홍콩
+xn--b6gac.eu.org#HK CDN HOST 홍콩
