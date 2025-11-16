@@ -19,8 +19,8 @@
 175.208.202.41:20583#KR Korea Telecom
 138.2.122.197:39863#KR Oracle Corporation
 152.69.229.175:22558#KR Oracle Corporation
-152.70.245.66:12693#KR Oracle Corporation
 123.143.9.5:14041#KR LG DACOM Corporation
+152.70.245.66:12693#KR Oracle Corporation
 193.122.126.64:53777#KR Oracle Public Cloud
 64.110.70.205:23022#KR Oracle Corporation
 106.244.201.248:50000#KR LG DACOM Corporation
@@ -43,3 +43,5 @@
 211.219.241.28:31337#KR Korea Telecom
 211.250.44.142:50001#KR Korea Telecom
 220.125.55.47:24472#KR Korea Telecom
+59.1.170.106:30012#KR Korea Telecom
+64.110.75.145:443#KR Oracle Corporation
