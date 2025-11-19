@@ -1,5 +1,4 @@
 129.154.54.67:19567#KR Oracle Corporation
-211.105.35.130:30012#KR Korea Telecom
 152.67.211.114:58337#KR Oracle Public Cloud
 52.141.25.42:443#KR Microsoft Corporation
 152.67.197.197:19120#KR Oracle Public Cloud
@@ -22,8 +21,8 @@
 193.122.126.64:53777#KR Oracle Public Cloud
 64.110.70.205:23022#KR Oracle Corporation
 106.244.201.248:50000#KR LG DACOM Corporation
-115.40.244.240:12696#KR LG HelloVision Corp.
 115.40.244.240:11211#KR LG HelloVision Corp.
+115.40.244.240:12696#KR LG HelloVision Corp.
 152.67.209.237:22053#KR Oracle Public Cloud
 132.226.23.92:22053#KR Oracle Public Cloud
 115.40.240.254:37594#KR LG HelloVision Corp.
