@@ -8,11 +8,11 @@
 38.180.28.163:8443#JP 3NT SOLUTIONS LLP
 140.83.59.158:15805#JP imported inetnum object for OCPL-1
 140.83.57.20:13118#JP imported inetnum object for OCPL-1
-176.97.70.51:2053#JP 3nt solutions LLP
 140.83.57.183:22735#JP imported inetnum object for OCPL-1
+176.97.70.51:2053#JP 3nt solutions LLP
 140.238.37.103:14782#JP Oracle Public Cloud
-18.183.158.211:443#JP Amazon Data Services Japan
 38.180.28.163:2053#JP 3NT SOLUTIONS LLP
+18.183.158.211:443#JP Amazon Data Services Japan
 147.45.49.164:24443#JP GLOBAL CONNECTIVITY SOLUTIONS LLP
 150.230.204.21:10243#JP Oracle Corporation
 8.209.220.50:21273#JP Shiodome Sumitomo Blog 1-9-2 TOKYO
@@ -29,8 +29,8 @@
 138.2.10.217:27446#JP Oracle Corporation
 168.138.213.1:50003#JP Oracle Public Cloud
 138.2.49.197:587#JP Oracle Corporation
-138.2.18.82:8880#JP Oracle Corporation
 217.142.230.253:587#JP Oracle Corporation
+138.2.18.82:8880#JP Oracle Corporation
 168.138.46.67:443#JP Oracle Public Cloud
 43.133.10.236:33405#JP 6 COLLYER QUAY
 168.138.46.115:43138#JP Oracle Public Cloud
@@ -49,29 +49,27 @@
 158.101.154.245:47001#JP Oracle Public Cloud
 141.147.152.229:23333#JP Oracle Corporation
 141.147.147.180:443#JP Oracle Corporation
+103.238.129.215:42734#JP ByteVirt LLC
 141.147.144.15:13357#JP Oracle Corporation
 139.162.102.152:7002#JP Akamai Connected Cloud / Linode
-103.238.129.215:42734#JP ByteVirt LLC
 13.230.34.30:443#JP Amazon Data Services Japan
 141.98.197.101:11665#JP xTom Japan Corporation
 158.101.76.55:21953#JP Oracle Public Cloud
 64.110.104.30:443#JP Oracle Corporation
-18.205.113.91:443#JP TOKAI Communications Corporation
 138.2.61.180:443#JP Oracle Corporation
+18.205.113.91:443#JP TOKAI Communications Corporation
 138.3.217.167:587#JP Oracle Network Information Services
-139.162.79.151:587#JP 139.162.0.0/16
+139.162.79.151:587#JP Akamai Connected Cloud / Linode
 140.238.58.181:2053#JP Oracle Public Cloud
-141.147.178.249:37043#JP Oracle Corporation
 141.147.185.63:443#JP Oracle Corporation
 140.83.83.65:9872#JP Oracle Corporation
-150.230.196.248:443#JP Oracle Corporation
-124.156.238.155:443#JP 6 COLLYER QUAY
-152.70.101.24:16666#JP Oracle Corporation
+141.147.178.249:37043#JP Oracle Corporation
 152.70.101.24:16800#JP Oracle Corporation
-155.248.181.189:443#JP Oracle Public Cloud
+152.70.101.24:16666#JP Oracle Corporation
 160.16.123.65:443#JP SAKURA Internet Inc.
 172.104.127.132:443#JP Linode
 212.52.0.61:1846#JP Prinode AB
+155.248.181.189:443#JP Oracle Public Cloud
 47.74.8.30:2443#JP Alibaba Cloud - JP
 64.110.101.31:8443#JP Oracle Corporation
 47.79.41.201:443#JP Alibaba Cloud (Singapore) Private Limited
