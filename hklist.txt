@@ -6,17 +6,16 @@
 2.56.91.89:8443#HK ihc.hk vps in Hong Kong
 85.208.104.34:8080#HK Internet Utilities Europe and Asia Limited
 156.255.90.175:2053#HK StepGo Limited
-36.50.90.241:47790#HK IoT Innovation Technologies Company Limited
 2.56.91.89:2053#HK ihc.hk vps in Hong Kong
+36.50.90.241:47790#HK IoT Innovation Technologies Company Limited
 156.254.114.120:30011#HK StepGo Limited
 36.50.90.241:35951#HK IoT Innovation Technologies Company Limited
-156.230.12.71:443#HK 263 Shanghai Communications Ltd.
 8.218.245.116:42805#HK Alibaba Cloud (Singapore) Private Limited
 8.218.245.116:41528#HK Alibaba Cloud (Singapore) Private Limited
 118.141.64.192:36619#HK HGC Global Communications Limited
 156.255.90.175:8443#HK StepGo Limited
-47.242.171.138:37021#HK ALIBABA CLOUD - HK
 43.154.124.136:26666#HK 6 COLLYER QUAY
+47.242.171.138:37021#HK ALIBABA CLOUD - HK
 221.125.10.8:57537#HK HGC Global Communications Limited
 8.218.245.116:49701#HK Alibaba Cloud (Singapore) Private Limited
 47.76.218.163:443#HK Alibaba Cloud - HK
@@ -25,11 +24,12 @@
 154.16.10.34:8080#HK Digital Energy Technologies Limited
 58.176.95.46:443#HK Hong Kong Broadband Network Ltd
 8.210.92.96:33335#HK Aliyun Computing Co.LTD
-219.76.13.167:443#HK Hong Kong Telecommunications (HKT) Limited Mass Internet
 219.76.13.166:443#HK Hong Kong Telecommunications (HKT) Limited Mass Internet
-219.76.13.177:443#HK Hong Kong Telecommunications (HKT) Limited Mass Internet
+219.76.13.167:443#HK Hong Kong Telecommunications (HKT) Limited Mass Internet
 219.76.13.169:443#HK Hong Kong Telecommunications (HKT) Limited Mass Internet
 219.76.13.180:443#HK Hong Kong Telecommunications (HKT) Limited Mass Internet
+219.76.13.177:443#HK Hong Kong Telecommunications (HKT) Limited Mass Internet
+219.76.13.181:443#HK Hong Kong Telecommunications (HKT) Limited Mass Internet
 43.154.202.186:23333#HK 6 COLLYER QUAY
 47.79.20.64:443#HK Alibaba Cloud LLC
 cloudflare.182682.xyz:443#HK CDN Host
