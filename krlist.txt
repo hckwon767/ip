@@ -1,6 +1,7 @@
 129.154.54.67:19567#KR Oracle Corporation
 152.67.211.114:58337#KR Oracle Public Cloud
 52.141.25.42:443#KR Microsoft Corporation
+118.130.187.163:30024#KR LG DACOM Corporation
 152.67.197.197:19120#KR Oracle Public Cloud
 144.24.84.212:49888#KR Oracle Corp UK Ltd
 121.165.101.69:19413#KR Korea Telecom
@@ -9,7 +10,6 @@
 217.142.138.61:37914#KR Oracle Svenska AB
 131.186.18.212:28887#KR Oracle Corporation
 132.145.84.148:39567#KR Oracle Public Cloud
-182.172.211.112:30012#KR DLIVE
 129.154.223.89:15800#KR Oracle Corporation
 140.238.5.75:13644#KR Oracle Public Cloud
 131.186.24.124:587#KR Oracle Public Cloud
@@ -20,18 +20,18 @@
 123.143.9.5:14041#KR LG DACOM Corporation
 193.122.126.64:53777#KR Oracle Public Cloud
 64.110.70.205:23022#KR Oracle Corporation
-132.226.23.92:22053#KR Oracle Public Cloud
 152.67.209.237:22053#KR Oracle Public Cloud
+132.226.23.92:22053#KR Oracle Public Cloud
 106.241.78.205:11001#KR LG DACOM Corporation
 115.40.240.254:37594#KR LG HelloVision Corp.
-125.137.0.188:30021#KR Korea Telecom
+121.139.174.91:30023#KR Korea Telecom
 129.154.202.229:8443#KR Oracle Corporation
 131.186.17.132:443#KR Oracle Public Cloud
-131.186.27.112:2096#KR Oracle Public Cloud
 132.145.88.82:38066#KR Oracle Public Cloud
+131.186.27.112:2096#KR Oracle Public Cloud
 140.238.2.81:587#KR Oracle Public Cloud
 144.24.73.232:443#KR Oracle Corp UK Ltd
 144.24.90.107:443#KR Oracle Corporation
 211.219.241.28:31337#KR Korea Telecom
 222.114.57.191:30023#KR Korea Telecom
-59.1.185.190:30012#KR Korea Telecom
+64.110.75.145:443#KR Oracle Corporation
