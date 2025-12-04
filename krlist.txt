@@ -3,8 +3,8 @@
 52.141.25.42:443#KR Microsoft Corporation
 152.67.197.197:19120#KR Oracle Public Cloud
 144.24.84.212:49888#KR Oracle Corp UK Ltd
-121.165.101.69:19413#KR Korea Telecom
 129.154.48.176:36355#KR Oracle Corporation
+121.165.101.69:19413#KR Korea Telecom
 144.24.87.69:50001#KR Oracle Corporation
 217.142.138.61:37914#KR Oracle Svenska AB
 131.186.18.212:28887#KR Oracle Corporation
@@ -19,14 +19,14 @@
 123.143.9.5:14041#KR LG Uplus
 193.122.126.64:53777#KR Oracle Public Cloud
 64.110.70.205:23022#KR Oracle Corporation
-152.67.209.237:22053#KR Oracle Public Cloud
 132.226.23.92:22053#KR Oracle Public Cloud
+152.67.209.237:22053#KR Oracle Public Cloud
 115.40.240.254:37594#KR HVGyeongnam
 121.179.164.212:30055#KR Jeonnambonbujang
 125.137.0.188:30021#KR KT
 129.154.202.229:8443#KR Oracle Corporation
-131.186.27.112:2096#KR Oracle Public Cloud
 131.186.17.132:443#KR Oracle Public Cloud
+131.186.27.112:2096#KR Oracle Public Cloud
 132.145.88.82:38066#KR Oracle Public Cloud
 14.54.36.170:30035#KR Korea Telecom
 140.238.2.81:587#KR Oracle Public Cloud
@@ -34,4 +34,3 @@
 144.24.90.107:443#KR Oracle Corporation
 211.219.241.28:31337#KR KT
 222.114.57.191:30023#KR Korea Telecom
-59.1.185.190:30012#KR Korea Telecom
