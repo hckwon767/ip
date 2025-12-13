@@ -54,6 +54,7 @@ FIXED_PROXIES: List[str] = [
     "cdn.tzpro.xyz:443#HK",
     "cf.877771.xyz:443#HK",
     "xn--b6gac.eu.org:443#HK"
+    "kr.tp50000.netlib.re:50000#KR 한국테스트서버"
 ]
 
 def get_country_korean_name(country_code: str) -> str:
