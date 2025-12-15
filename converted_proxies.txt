@@ -74,4 +74,4 @@ f3058171cad.002404.xyz:443#HK CDN HOST 홍콩
 8.889288.xyz:443#HK CDN HOST 홍콩
 cdn.tzpro.xyz:443#HK CDN HOST 홍콩
 cf.877771.xyz:443#HK CDN HOST 홍콩
-xn--b6gac.eu.org:443#HKKR.TP50000.NETLIB.RE:50000#KR 한국테스트서버 CDN HOST 알수없음
+xn--b6gac.eu.org:443#KR 한국테스트서버 CDN HOST 알수없음
