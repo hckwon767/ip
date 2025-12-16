@@ -32,7 +32,6 @@ jobs:
       run: |
         python krlist.py
         python convert_proxies.py
-        python cfproxyip.py
     - name: Commit and push changes
       run: |
         git config --local user.name "github-actions[bot]"
@@ -43,7 +42,6 @@ jobs:
         git add sglist.txt
         git add twlist.txt
         git add converted_proxies.txt
-        git add cfproxy.txt
         if git diff --cached --exit-code; then
           echo "No changes to commit"
         else
