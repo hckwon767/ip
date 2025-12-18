@@ -60,7 +60,7 @@ def extract_ip_port_country_code_validated(url):
             
             entry = {
                 'ip_parts': ip_parts,
-                'string': f"{ip}:{port}#{raw_country_code} {korean_name} {port} 엣지"
+                'string': f"{ip}:{port}#{raw_country_code} {korean_name} {port} 메로나"
             }
             
             if entry not in extracted_data:
