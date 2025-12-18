@@ -60,7 +60,7 @@ def extract_ip_port_country_code_validated(url):
             
             entry = {
                 'ip_parts': ip_parts,
-                'string': f"{ip}:{port}#{raw_country_code} {korean_name}"
+                'string': f"{ip}:{port}#{raw_country_code} {korean_name} {port} 엣지"
             }
             
             if entry not in extracted_data:
@@ -75,7 +75,7 @@ def extract_ip_port_country_code_validated(url):
         return []
 
 # URL
-REAL_TARGET_URL = "https://url.v1.mk/sub?target=clash&url=https%3A%2F%2Fcm.soso.edu.kg%2Fsub%3Fpassword%3Daaa%26security%3Dtls%26type%3Dws%26host%3Daaaa%26sni%3Daaa%26path%3D%252Fproxyip%253DProxyIP.JP.CMLiussss.Net%26encryption%3Dnone%26allowInsecure%3D1&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2Fcmliu%2FACL4SSR%2Fmain%2FClash%2Fconfig%2FACL4SSR_Online.ini&emoji=true&list=true&xudp=false&udp=false&tfo=false&expand=true&scv=false&fdn=false&new_name=true"
+REAL_TARGET_URL = "https://api.subcsub.com/sub?target=clash&url=https%3A%2F%2Fcm.soso.edu.kg%2Fsub%3Fpassword%3Daaa%26security%3Dtls%26type%3Dws%26host%3Daaaa%26sni%3Daaa%26path%3D%252Fproxyip%253DProxyIP.JP.CMLiussss.Net%26encryption%3Dnone%26allowInsecure%3D1&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2Fcmliu%2FACL4SSR%2Fmain%2FClash%2Fconfig%2FACL4SSR_Online.ini&emoji=true&list=true&xudp=false&udp=false&tfo=false&expand=true&scv=false&fdn=false&new_name=true"
 
 # 데이터 추출 및 파일 저장
 extracted_list = extract_ip_port_country_code_validated(REAL_TARGET_URL)
