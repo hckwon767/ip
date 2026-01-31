@@ -53,8 +53,8 @@ FIXED_PROXIES: List[str] = [
     "8.889288.xyz:443#HK",
     "cdn.tzpro.xyz:443#HK",
     "cf.877771.xyz:443#HK",
-    "xn--b6gac.eu.org:443#HK"
-    "kr.tp50000.netlib.re:50000#KR"
+    "xn--b6gac.eu.org:443#HK",
+    "kr.tp50000.netlib.re:50000#KR",
     "mfa.gov.ua:443#HK MFA"
 ]
 
