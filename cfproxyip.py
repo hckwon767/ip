@@ -97,7 +97,7 @@ def extract_ip_port_country_code_yaml(url: str) -> List[str]:
             
             entry = {
                 'ip_parts': ip_parts,
-                'string': f"{server}:{port}#{raw_country_code} {korean_name} {port} 메로나"
+                'string': f"{server}:{port}#{raw_country_code} {korean_name} {port}"
             }
             
             # 중복 제거
